@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "Adam CG Pro";
+    src: url(ADAM_CG_PRO.otf);
+}
+
+
+
+/*
+Jaune  LES NUMERIQUES
+Hexa: #FFE62D
+RGB: 255 230 45
+
+Orange   LES ARTISTIQUES
+Hexa: #E5A512
+RGB: 229 165 18
+
+Bleu clair   LES ESSENTIELS
+Hexa: #004899
+RGB: 0 72 153
+
+Bleu foncé   LES INNOVATIONS / COULEUR PRINCIPALE
+Hexa: #2D237A
+RGB: 45 35 122
+
+Brun   LES LANGUES
+Hexa: #A83C17
+RGB: 168 60 23
+
+Vert   LES MAINS VERTES
+Hexa: #538335
+RGB: 83 131 53
+
+Gris informations
+Hexa: #F1F1F3s
+*/
+
+
+/*################# FLEXBOX #################*/
+
+.flex{
+  display: flex;
+}
+
+/*################# MOBILE & TABLET NAVIGATION #################*/
+
+/* Main navbar */
+header nav.nav-mobile{
+  width: 100%;
+  display: block;
+}
+
+.nav-mobile li:nth-child(8){
+  margin-bottom: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* Sidebar animation */
+.w3-animate-right{
+  width:70%!important;
+  right:0;
+  margin: 0;
+}
+
+/* nav Sidebar */
+.ul-Sidebar{
+  padding: 0!important;
+  list-style-type: none;
+  font-size: 1.3em;
+}
+
+/* div to close ul-sidebar on click */
+@keyframes backgroundcolor {
+  from {background-color: rgba(0, 0, 0, 0);}
+  to {background-color: rgba(0, 0, 0, 0.15);}
+}
+
+div.nav-closeSidebar{
+  background-color: rgba(0, 0, 0, 0.15);
+  /*animation: backgroundcolor 1.5s;*/
+  width: 100%!important;
+  height: 100%!important;
+}
+
+.w3-teal,
+.w3-teal:hover{
+  background-color: lightgrey!important;
+  color: white!important;
+  border-left: 1px solid #fff!important;
+}
+
+.ul-Sidebar .w3-button:hover{
+  background-color: white!important;
+}
+
+/*######################################################*/
+/*####################### DESKTOP ######################*/
+/*######################################################*/
+
+@media(min-width: 992px){
+
+  /*################# DESKTOP NAVIGATION #################*/
+
+  /* Main navbar */
+  .navLarge{
+    display: flex;
+    margin: 0;
+    border-top: 10px solid #E5A512;
+    padding-left: 0;
+    border-bottom: 1px solid lightgrey;
+    /*font-family: "Adam CG Pro"!important;*/
+  }
+
+  .navLarge li{
+    border-bottom: 4px solid white!important;
+    color: #525252;
+    padding-top: 25px!important;
+    padding-bottom: 25px!important;
+  }
+
+  .navLarge li:hover{
+    background-color: white!important;
+  }
+
+  /* to push .navLarge-connexion elements to right */
+  .navLarge li:nth-child(6){
+    margin-right: auto;
+  }
+
+  .navLarge li:first-child{
+    margin-left: 3%;
+  }
+
+  .navLarge li:last-child{
+    margin-right: 3%;
+  }
+
+
+
+  .navLarge li:first-child,
+  .navLarge li:nth-child(2),
+  .navLarge li:nth-child(3),
+  .navLarge li:nth-child(4),
+  .navLarge li:nth-child(5),
+  .navLarge li:nth-child(6){
+    transition: border .3s ease-out, color .3s ease-out;
+  }
+
+  .navLarge li:first-child:hover{
+    border-bottom: 4px solid #004899!important;
+    color: black!important;
+  }
+
+  .navLarge li:nth-child(2):hover{
+    border-bottom: 4px solid #A83C17!important;
+  }
+
+  .navLarge li:nth-child(3):hover{
+    border-bottom: 4px solid #FFE62D!important;
+  }
+
+  .navLarge li:nth-child(4):hover{
+    border-bottom: 4px solid #E5A512!important;
+  }
+
+  .navLarge li:nth-child(5):hover{
+    border-bottom: 4px solid #538335!important;
+  }
+
+  .navLarge li:nth-child(6):hover{
+    border-bottom: 4px solid #2D237A!important;
+  }
+
+  /****** HEADER ******/
+  header{
+    width: 80%;
+    margin: 50px auto;
+    color: #525252;
+  }
+
+  .div-logo{
+    width: 72%;
+  }
+
+  .div-recherche{
+    width: 28%;
+    margin: auto;
+  }
+
+  /* Logo ADEP */
+  .logo{
+    width: 200px;
+    /*margin-left: 100px;*/
+  }
+
+  .header-titre{
+    margin: auto;
+    width: 60%;
+  }
+
+  h1{
+    font-family: "Adam CG Pro";
+    letter-spacing: 5px;
+    font-size: 3.5em;
+    margin: 0;
+  }
+
+  h2{
+    font-family: "Adam CG Pro";
+    font-size: 1.3em;
+    margin: -10px 0 0 0;
+  }
+
+  /* Input de recherche */
+  header input{
+    border-radius: 5px 0 0 5px;
+    height: 60px;
+    width: 75%;
+    /*background-color: #F1F1F3;*/
+    border: 2px solid lightgrey;
+    margin-right: -7px;
+    text-align: center;
+
+  }
+
+  header input::placeholder{
+    color: grey;
+    text-align: center;
+  }
+
+  .div-recherche button{
+    background-color: lightgrey;
+    color: #FFF;
+    border: 2px solid lightgrey;
+    border-radius: 0 5px 5px 0;
+    height: 60px;
+    width: 60px;
+    margin-left: 0;
+  }
+
+  .div-recherche button:hover{
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+  <!-- start main mobile & tablet navigation -->
+  <div class="w3-hide-large">
+
+    <!-- Logo ADEP -->
+    <div class="nav-logo"></div>
+
+    <!-- start div to close sidebar -->
+    <div onclick="w3_close()" class="w3-sidebar w3-collapse mySidebar nav-closeSidebar"></div>
+    <!-- end div to close sidebar -->
+
+      <!-- start ul sidebar -->
+      <ul class="w3-sidebar w3-bar-block w3-collapse w3-card-2 w3-animate-right mySidebar ul-Sidebar">
+
+        <li onclick="w3_close()" class="w3-bar-item w3-button">MENU</li>
+
+        <li>
+          <form action="">
+            <input  onclick="w3_open()" type="text" placeholder="Rechercher">
+          </form>
+        </li>
+
+        <li><div><a href="#" class="w3-bar-item w3-button">Les Essentiels</a></div></li>
+        <li><div><a href="#" class="w3-bar-item w3-button">Les Langues</a></div></li>
+        <li><div><a href="#" class="w3-bar-item w3-button">Les Numériques</a></div></li>
+        <li><div><a href="#" class="w3-bar-item w3-button">Les Artistiques</a></div></li>
+        <li><div><a href="#" class="w3-bar-item w3-button">Les Mains Vertes</a></div></li>
+        <li><div><a href="#" class="w3-bar-item w3-button">Contact</a></div></li>
+
+        <li><div><a href="#" class="w3-bar-item w3-button">Se Connecter</a></div></li>
+        <li><div><a href="#" class="w3-bar-item w3-button">S'inscrire</a></div></li>
+
+      </ul>
+      <!-- end ul sidebar -->
+
+
+    <button class="w3-button w3-teal w3-large w3-right" onclick="w3_open()">MENU &#9776;</button>
+
+  </div>
+  <!-- end main mobile & tablet navigation -->
+
+  <!-- start main desktop navigation -->
+  <ul class="navLarge w3-bar w3-hide-small w3-hide-medium">
+    <li class="w3-bar-item w3-button"><a href="#">Les Essentiels</a></li>
+    <li class="w3-bar-item w3-button"><a href="#">Les Langues</a></li>
+    <li class="w3-bar-item w3-button"><a href="#">Les Numériques</a></li>
+    <li class="w3-bar-item w3-button"><a href="#">Les Artistiques</a></li>
+    <li class="w3-bar-item w3-button"><a href="#">Les Mains Vertes</a></li>
+    <li class="w3-bar-item w3-button"><a href="#">Contact</a></li>
+
+    <li class="navLarge-connexion w3-bar-item w3-button"><a href="#">Se connecter</a></li>
+    <li class="navLarge-connexion w3-bar-item w3-button"><a href="#">S'inscrire</a></li>
+  </ul>
+  <!-- end main desktop navigation -->
+
+  <header class="w3-hide-small w3-hide-medium flex">
+
+    <div class="div-logo flex">
+      <div>
+        <img class="logo" src="img/adep-logo-cut.png" alt="">
+      </div>
+      <div class="flex header-titre">
+        <div class="">
+          <h1>ADEP</h1>
+          <h2>L'Association pour le Développement <br>de l'Éducation Permanente</h2>
+        </div>
+      </div>
+    </div>
+    <div class="div-recherche">
+      <input type="text" name="recherche" placeholder="Recherche">
+      <button type="button" name="button">GO</button>
+    </div>
+
+  </header>
+
+
+  <script type="text/javascript" src="main.js">
+
+  </script>
+</body>
+</html>
