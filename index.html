@@ -27,9 +27,10 @@
         <li onclick="w3_close()" class="w3-bar-item w3-button">MENU</li>
 
         <li>
-          <form action="">
-            <input  onclick="w3_open()" type="text" placeholder="Rechercher">
-          </form>
+          <div class="flex">
+            <label for="recherche"><img src="img/logo-loupe.png" alt=""></label>
+            <input id="recherche" class="recherche" type="text">
+          </div>
         </li>
 
         <li><div><a href="#" class="w3-bar-item w3-button">Les Essentiels</a></div></li>
@@ -62,8 +63,9 @@
       <li class="w3-bar-item w3-button"><a href="#">Contact</a></li>
     </div>
 
-    <div>
-      <input id="recherche" class="recherche" type="text" name="" placeholder="Recherche">
+    <div class="flex">
+      <label for="recherche"><img src="img/logo-loupe.png" alt=""></label>
+      <input id="recherche" class="recherche" type="text">
     </div>
 
     <div class="flex">
