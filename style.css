@@ -98,7 +98,7 @@ div.nav-closeSidebar{
 
 
 .recherche{
-  width:100%;
+  width:70%;
   height: 100%;
   border: 1px solid red;
   margin: auto;
@@ -117,6 +117,16 @@ label img{
   .mySidebar li{
     border-bottom: 1px solid #F1F1F3;
     font-family: "Adam CG Pro";
+    padding: 10px;
+  }
+
+  .mySidebar li:nth-child(8){
+    margin-bottom: 40px;
+    border-bottom: 0;
+  }
+
+  .mySidebar li:last-child{
+    border-bottom: 0;
   }
 }
 
