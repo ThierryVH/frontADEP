@@ -60,6 +60,11 @@ Hexa: #F1F1F3s
 }
 
 /* div to close ul-sidebar on click */
+@-webkit-keyframes backgroundcolor {
+  from {background-color: rgba(0, 0, 0, 0);}
+  to {background-color: rgba(0, 0, 0, 0.15);}
+}
+
 @keyframes backgroundcolor {
   from {background-color: rgba(0, 0, 0, 0);}
   to {background-color: rgba(0, 0, 0, 0.15);}
@@ -68,6 +73,7 @@ Hexa: #F1F1F3s
 div.nav-closeSidebar{
   background-color: rgba(0, 0, 0, 0.15);
   animation: backgroundcolor 1.5s;
+  -webkit-animation: backgroundcolor 1.5s;
   width: 100%!important;
   height: 100%!important;
 }
