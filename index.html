@@ -11,29 +11,37 @@
 <body>
 
   <nav>
+
+<div class="flex w3-hide-large">
+    <div class="div-logo-mobile flex">
+      <img src="img/adep-logo-cut.png" alt="">
+      <h1>ADEP</h1>
+    </div>
+
+    <div class="div-search-mobile flex">
+      <label class="recherche" for="recherche"><img class="logo-loupe" src="img/logo-loupe.png"></label>
+      <input id="recherche" class="recherche-mobile" type="text">
+    </div>
   <!-- start main mobile & tablet navigation -->
-  <div class="w3-hide-large">
+  <!-- start div to close sidebar -->
+  <div onclick="w3_close()" class="w3-sidebar w3-collapse mySidebar nav-closeSidebar w3-hide-large"></div>
+  <!-- end div to close sidebar -->
+  <div class=" flex div-button-menu w3-hide-large">
 
-    <!-- Logo ADEP -->
-    <div class="nav-logo"></div>
-
-    <!-- start div to close sidebar -->
-    <div onclick="w3_close()" class="w3-sidebar w3-collapse mySidebar nav-closeSidebar"></div>
-    <!-- end div to close sidebar -->
 
       <!-- start ul sidebar -->
       <ul class="w3-sidebar w3-bar-block w3-collapse w3-card-2 w3-animate-right mySidebar ul-Sidebar">
 
-        <li onclick="w3_close()" class="w3-bar-item w3-button">
+        <li onclick="w3_close()" class="menu-button w3-bar-item w3-button">
           MENU
         </li>
 
-        <li>
+        <!-- <li>
           <div class="flex">
             <label class="recherche" for="recherche"><img class="logo-loupe" src="img/logo-loupe.png"></label>
             <input id="recherche" class="recherche-mobile" type="text">
           </div>
-        </li>
+        </li> -->
 
         <li><img src="" alt=""><div><a href="#" class="w3-bar-item w3-button">Les Essentiels</a></div></li>
         <li><img src="" alt=""><div><a href="#" class="w3-bar-item w3-button">Les Langues</a></div></li>
@@ -49,7 +57,9 @@
       <!-- end ul sidebar -->
 
 
-    <button class="w3-button w3-teal w3-large w3-right" onclick="w3_open()">MENU &#9776;</button>
+    <button class="button-menu w3-button w3-teal w3-large w3-right" onclick="w3_open()"><span>MENU</span> &#9776;</button>
+
+  </div>
 
   </div>
   <!-- end main mobile & tablet navigation -->
@@ -70,7 +80,7 @@
       <input id="recherche-desktop" class="recherche-desktop" type="text">
     </div>
 
-    <div class="flex">
+    <div class="flex nav-connexion">
       <li class="navLarge-connexion w3-bar-item w3-button"><a href="#">Se connecter</a></li>
       <li class="navLarge-connexion w3-bar-item w3-button"><a href="#">S'inscrire</a></li>
     </div>
@@ -78,18 +88,15 @@
   <!-- end main desktop navigation -->
 </nav>
 
-  <header class="flex">
+  <header class="header flex w3-hide-medium w3-hide-small">
 
-      <div>
-        <img class="logo" src="img/adep-logo-cut.png" alt="">
+       <div class="header-logo-adep">
+        <img class="logo" src="img/adep-logo-cut.png" alt="logo ADEP">
       </div>
-      <div class="flex header-titre">
-        <div>
+      <div class="header-titre">
           <h1>ADEP</h1>
           <h2>L'Association pour le Développement <br>de l'Éducation Permanente</h2>
-        </div>
       </div>
-
   </header>
 
 
