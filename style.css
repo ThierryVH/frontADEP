@@ -106,7 +106,6 @@ div.nav-closeSidebar{
 
   /* Main navbar */
   .navLarge{
-    display: flex;
     margin: 0;
     border-top: 10px solid #E5A512;
     padding-left: 0;
@@ -114,20 +113,55 @@ div.nav-closeSidebar{
     /*font-family: "Adam CG Pro"!important;*/
   }
 
+  .navLarge div{
+    border: 1px solid #F1F1F3;
+  }
+
+  .navLarge div:first-child{
+    width: 60%;
+    min-width: 712px;
+    justify-content: space-around;
+  }
+
+  .navLarge div:nth-child(2){
+    width: 22%;
+  }
+
+  .recherche{
+    width:100%;
+    height: 100%;
+    border: 0;
+    padding-left: 30px;
+  }
+
+  .recherche::placeholder{
+    color: lightgrey;
+  }
+
+  .navLarge div:last-child{
+    width: 18%;
+    justify-content: space-around;
+    min-width: 200px;
+  }
+
+  .navLarge-connexion{
+    padding: 25px 10px!important;
+  }
+
   .navLarge li{
     border-bottom: 4px solid white!important;
     color: #525252;
     padding-top: 25px!important;
     padding-bottom: 25px!important;
+    /*margin: 0!important;*/
+  }
+
+  .navLarge div:first-child li{
+    padding: 25px 13px;
   }
 
   .navLarge li:hover{
     background-color: white!important;
-  }
-
-  /* to push .navLarge-connexion elements to right */
-  .navLarge li:nth-child(6){
-    margin-right: auto;
   }
 
   .navLarge li:first-child{
@@ -138,8 +172,6 @@ div.nav-closeSidebar{
     margin-right: 1.5%;
   }
 
-
-
   .navLarge li:first-child,
   .navLarge li:nth-child(2),
   .navLarge li:nth-child(3),
@@ -149,28 +181,28 @@ div.nav-closeSidebar{
     transition: border .3s ease-out, color .3s ease-out;
   }
 
-  .navLarge li:first-child:hover{
+  .navLarge div:first-child li:first-child:hover{
     border-bottom: 4px solid #004899!important;
     color: black!important;
   }
 
-  .navLarge li:nth-child(2):hover{
+  .navLarge div:first-child li:nth-child(2):hover{
     border-bottom: 4px solid #A83C17!important;
   }
 
-  .navLarge li:nth-child(3):hover{
+  .navLarge div:first-child li:nth-child(3):hover{
     border-bottom: 4px solid #FFE62D!important;
   }
 
-  .navLarge li:nth-child(4):hover{
+  .navLarge div:first-child li:nth-child(4):hover{
     border-bottom: 4px solid #E5A512!important;
   }
 
-  .navLarge li:nth-child(5):hover{
+  .navLarge div:first-child li:nth-child(5):hover{
     border-bottom: 4px solid #538335!important;
   }
 
-  .navLarge li:nth-child(6):hover{
+  .navLarge div:first-child li:nth-child(6):hover{
     border-bottom: 4px solid #2D237A!important;
   }
 
