@@ -8,23 +8,29 @@ function w3_close() {
   document.getElementsByClassName("mySidebar")[1].style.display = "none";
 }
 
-// var search = document.getElementById('recherche');
-//
-// var firstInterval = setInterval(deletePlaceholder, 20);
-// var secondInterval = setInterval(placeholder, 20);
-//
-// function deletePlaceholder(){
-//   if(window.innerWidth <= 1070){
-//     search.placeholder = "";
-//     clearInterval(firstInterval);
-//     secondInterval = setInterval(placeholder, 20);
-//   }
-// }
-//
-// function placeholder(){
-//   if(window.innerWidth > 1070){
-//     search.placeholder = "Recherche";
-//     clearInterval(secondInterval);
-//     firstInterval = setInterval(deletePlaceholder, 20);
-//   }
-// }
+///////////////////////////////////////////////////////
+// Script pour laisser la place au champ de recherche au clic
+///////////////////////////////////////////////////////
+
+var clickRecherche = document.getElementById('recherche-desktop');
+var divConnexion = document.getElementsByClassName('nav-connexion')[0];
+var recherche = document.getElementById('recherche');
+var divButton = document.getElementsByClassName('div-button-menu')[0];
+
+clickRecherche.onfocus = openSearch;
+clickRecherche.onblur = closeSearch;
+recherche.onfocus = openSearch;
+recherche.onblur = closeSearch;
+
+
+function openSearch(){
+  divConnexion.style.display = "none";
+  divButton.style.display = "none";
+}
+
+function closeSearch(){
+  divConnexion.style.display = "flex";
+  divButton.style.display = "flex";
+  clickRecherche.value = "";
+  recherche.value = "";
+}
