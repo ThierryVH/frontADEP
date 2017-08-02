@@ -249,6 +249,7 @@ label.recherche img.logo-loupe{
   /* Main navbar */
   .main-nav{
     border-top: 10px solid #E5A512;
+    border-bottom: 1px solid #F1F1F3!important;
   }
 
   .navLarge{
@@ -258,7 +259,6 @@ label.recherche img.logo-loupe{
   }
 
   .navLarge div{
-    border-bottom: 1px solid #F1F1F3!important;
     border-left: 1px solid #F1F1F3!important;
   }
 
