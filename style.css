@@ -315,25 +315,27 @@ label.recherche img.logo-loupe{
   }
 
   /****** HEADER ******/
-  header{
+  .header{
     width: 780px;
     margin: 50px auto;
     color: #525252;
     /*border: 1px solid red;*/
   }
 
+  .header-titre{
+    margin-top: 35px;
+  }
+
   .header-titre h1{
     font-family: "Adam CG Pro";
     letter-spacing: 5px;
     font-size: 4em;
-    margin: 0;
+    margin-bottom: -15px;
   }
 
   .header-titre h2{
     font-family: "Adam CG Pro";
     font-size: 1.5em;
-    margin: -10px 0 0 0;
-    /*font-weight: lighter!important;*/
   }
 
 
@@ -344,5 +346,6 @@ label.recherche img.logo-loupe{
 
   .logo{
     width: 220px;
+    margin-right: 50px;
   }
 }
