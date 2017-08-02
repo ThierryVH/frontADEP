@@ -101,10 +101,7 @@ div.nav-closeSidebar{
   width:100%;
   height: 100%;
   border: 0;
-}
-
-.recherche::placeholder{
-  color: lightgrey;
+  margin: auto;
 }
 
 label{
