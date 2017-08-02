@@ -42,7 +42,9 @@ Hexa: #F1F1F3s
 
 .main-nav a {
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
 }
 
 /* Sidebar animation */
@@ -132,9 +134,10 @@ label.recherche img.logo-loupe{
 
   .div-search-mobile input{
     width: 100%;
+    font-weight: 300;
     font-size: 1.2em;
     color: grey;
-    font-family: Verdana, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: white;
     border: 0;
   }
@@ -147,7 +150,6 @@ label.recherche img.logo-loupe{
 
   .mySidebar li{
     border-bottom: 1px solid #F1F1F3;
-    font-family: "Adam CG Pro";
     padding: 10px;
     display: flex;
   }
@@ -190,12 +192,33 @@ label.recherche img.logo-loupe{
   button.button-menu span,
   button.button-menu:hover span{
     font-size: 15px!important;
-    font-family: "Adam CG Pro";
+    font-family: 'Source Sans Pro', sans-serif;
   }
+
+  .menu-button{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .header-titre{
+    text-align: center;
+    width: 90%;
+    margin: 80px auto;
+  }
+
+  .header-titre h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    color: #525252;
+  }
+
+
 
 /*##########################################################*/
 /*######################### TABLET #########################*/
 /*##########################################################*/
+
+
 
 @media(min-width: 701px){
 
@@ -227,12 +250,20 @@ label.recherche img.logo-loupe{
   button.button-menu,
   button.button-menu:hover{
     padding: 12px 12px;
-    font-size: 20px!important;
+    font-size: 15px!important;
   }
 
   button.button-menu span,
   button.button-menu:hover span{
     font-size: 18px!important;
+  }
+
+  .header-titre{
+    width: 80%;
+  }
+
+  .header-titre h2{
+    font-size: 2.5em;
   }
 
 }
@@ -346,7 +377,7 @@ label.recherche img.logo-loupe{
   }
 
   /****** HEADER ******/
-  .header{
+  .header-logo{
     width: 780px;
     margin: 50px auto;
     color: #525252;
@@ -360,6 +391,7 @@ label.recherche img.logo-loupe{
 
   .header-titre{
     margin-top: 35px;
+    text-align: left;
   }
 
   .header-titre h1{
@@ -370,8 +402,9 @@ label.recherche img.logo-loupe{
   }
 
   .header-titre h2{
-    font-family: "Adam CG Pro";
-    font-size: 1.5em;
+    /*font-family: "Adam CG Pro";*/
+    font-size: 2.2em;
+    line-height: 1;
   }
 
 
