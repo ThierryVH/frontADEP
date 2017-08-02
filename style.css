@@ -178,12 +178,12 @@ label.recherche img.logo-loupe{
 
   button.button-menu,
   button.button-menu:hover{
-    border-radius: 5px;
+    border-radius: 4px;
     background-color:  white!important;
     color: #525252!important;
-    border: 3px solid #F1F1F3;
+    border: 2px solid #F1F1F3;
     margin: auto;
-    font-size: 20px!important;
+    font-size: 15px!important;
     padding: 10px 12px;
   }
 
@@ -227,7 +227,7 @@ label.recherche img.logo-loupe{
   button.button-menu,
   button.button-menu:hover{
     padding: 12px 12px;
-    font-size: 25px!important;
+    font-size: 20px!important;
   }
 
   button.button-menu span,
