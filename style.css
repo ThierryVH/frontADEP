@@ -87,7 +87,7 @@ div.nav-closeSidebar{
 }
 
 
-.recherche{
+.recherche-desktop{
   width:80%;
   height: 100%;
   border: 0;
@@ -101,6 +101,11 @@ label.recherche{
 
 label.recherche img.logo-loupe{
   width: 20px;
+}
+
+.recherche-mobile:focus,
+.recherche-desktop:focus{
+  outline: none;
 }
 
 @media(max-width: 991px)  {
@@ -126,10 +131,6 @@ label.recherche img.logo-loupe{
     border-bottom: 0;
   }
 
-  .recherche{
-    font-family: Verdana, sans-serif;
-  }
-
   li.w3-button img.logo-menu{
     width: 40px;
     height: 40px;
@@ -138,8 +139,10 @@ label.recherche img.logo-loupe{
   .recherche-mobile{
     font-size: 0.8em;
     color: grey;
+    font-family: Verdana, sans-serif;
     border: 0;
   }
+
 
   ul.mySidebar li:first-child{
     padding: 20px 0 0 45px;
