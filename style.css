@@ -106,17 +106,127 @@ label.recherche img.logo-loupe{
 
 
 
-@media(max-width: 991px)  {
+@media(max-width: 700px)  {
 
   nav{
-    border-top: 10px solid #E5A512;
+    border-top: 5px solid #E5A512;
     border-bottom: 1px solid #F1F1F3;
   }
 
   .div-logo-mobile{
-    width: 25%;
+    width: 18%;
+    height: 50px;
+    min-width: 100px;
+  }
+
+  .div-logo-mobile img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+
+  .div-logo-mobile h1{
+    font-family: "Adam CG Pro";
+    font-size: 1em;
+    margin: 15px 10% 0px 5%;
+    color: #525252;
+  }
+
+  .div-search-mobile{
+    height: 50px;
+    width: 65%;
+    border-left: 1px solid #F1F1F3;
+  }
+
+  .div-search-mobile input{
+    font-size: 1.2em;
+    color: grey;
+    font-family: Verdana, sans-serif;
+    width: 75%;
+    background-color: white;
+    border: 0;
+  }
+
+  .div-button-menu{
+    width:20%;
+    height: 50px;
+    min-width: 130px;
+  }
+
+  .mySidebar li{
+    border-bottom: 1px solid #F1F1F3;
+    font-family: "Adam CG Pro";
+    padding: 10px;
+    display: flex;
+  }
+
+  .mySidebar li img{
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
+  }
+
+  .mySidebar li:nth-child(7){
+    margin-bottom: 30px;
+    border-bottom: 0;
+  }
+
+  .mySidebar li:last-child{
+    border-bottom: 0;
+  }
+
+  li.w3-button img.logo-menu{
+    width: 40px;
+    height: 40px;
+  }
+
+  ul.mySidebar li:first-child{
+    padding: 20px 0 20px 45px;
+  }
+
+  button.button-menu,
+  button.button-menu:hover{
+    border-radius: 5px;
+    background-color:  lightgrey!important;
+    /*border: 4px solid  #E5A512;*/
+    color: white!important;
+    margin: auto;
+    width: 80px;
+    font-size: 15px!important;
+    padding: 5px 0;
+  }
+
+  button.button-menu span,
+  button.button-menu:hover span{
+    font-family: "Adam CG Pro";
+  }
+
+
+  /* ########## HEADER ########### */
+  /* Logo ADEP */
+  .logo{
+    width: 220px;
+  }
+
+
+}
+
+
+
+
+
+
+@media(min-width: 701px) and (max-width: 991px) {
+
+  nav{
+    border-top: 5px solid #E5A512;
+    border-bottom: 1px solid #F1F1F3;
+  }
+
+  .div-logo-mobile{
+    width: 20%;
     height: 80px;
-    min-width: 185px;
+    min-width: 100px;
   }
 
   .div-logo-mobile img{
@@ -127,8 +237,8 @@ label.recherche img.logo-loupe{
 
   .div-logo-mobile h1{
     font-family: "Adam CG Pro";
-    font-size: 1.5em;
-    margin: 28px 30px 0px 0px;
+    font-size: 1em;
+    margin: 15px 10% 0px 5%;
     color: #525252;
   }
 
@@ -187,18 +297,20 @@ label.recherche img.logo-loupe{
   button.button-menu,
   button.button-menu:hover{
     border-radius: 5px;
-    background-color:  #E5A512!important;
-    border: 4px solid  #E5A512;
+    background-color:  lightgrey!important;
+    /*border: 4px solid  #E5A512;*/
     color: white!important;
     margin: auto;
-    width: 100px;
-    padding: 8px 5px;
+    width: 80px;
+    font-size: 15px!important;
+    padding: 5px 0;
   }
 
   button.button-menu span,
   button.button-menu:hover span{
     font-family: "Adam CG Pro";
   }
+
 
   /* ########## HEADER ########### */
   /* Logo ADEP */
@@ -208,6 +320,13 @@ label.recherche img.logo-loupe{
 
 
 }
+
+
+
+
+
+
+
 
 /*######################################################*/
 /*####################### DESKTOP ######################*/
