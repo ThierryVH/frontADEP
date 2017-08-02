@@ -138,6 +138,7 @@ label.recherche img.logo-loupe{
   .recherche-mobile{
     font-size: 0.8em;
     color: grey;
+    border: 0;
   }
 
   ul.mySidebar li:first-child{
