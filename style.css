@@ -75,13 +75,6 @@ div.nav-closeSidebar{
   height: 100%!important;
 }
 
-.w3-teal,
-.w3-teal:hover{
-  background-color: lightgrey!important;
-  color: white!important;
-  border-left: 1px solid #fff!important;
-}
-
 .ul-Sidebar .w3-button:hover{
   background-color: white!important;
 }
@@ -109,7 +102,57 @@ label.recherche img.logo-loupe{
   border: 0;
 }
 
+
+
+
+
 @media(max-width: 991px)  {
+
+  nav{
+    border-top: 10px solid #E5A512;
+    border-bottom: 1px solid #F1F1F3;
+  }
+
+  .div-logo-mobile{
+    width: 25%;
+    height: 80px;
+    min-width: 185px;
+  }
+
+  .div-logo-mobile img{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+  }
+
+  .div-logo-mobile h1{
+    font-family: "Adam CG Pro";
+    font-size: 1.5em;
+    margin: 28px 30px 0px 0px;
+    color: #525252;
+  }
+
+  .div-search-mobile{
+    height: 80px;
+    width: 65%;
+    border-left: 1px solid #F1F1F3;
+  }
+
+  .div-search-mobile input{
+    font-size: 1.2em;
+    color: grey;
+    font-family: Verdana, sans-serif;
+    width: 75%;
+    background-color: white;
+    border: 0;
+  }
+
+  .div-button-menu{
+    width:20%;
+    height: 80px;
+    min-width: 130px;
+  }
+
   .mySidebar li{
     border-bottom: 1px solid #F1F1F3;
     font-family: "Adam CG Pro";
@@ -123,7 +166,7 @@ label.recherche img.logo-loupe{
     margin: auto 0;
   }
 
-  .mySidebar li:nth-child(8){
+  .mySidebar li:nth-child(7){
     margin-bottom: 30px;
     border-bottom: 0;
   }
@@ -137,17 +180,32 @@ label.recherche img.logo-loupe{
     height: 40px;
   }
 
-  .recherche-mobile{
-    font-size: 0.8em;
-    color: grey;
-    font-family: Verdana, sans-serif;
-    border: 0;
-  }
-
-
   ul.mySidebar li:first-child{
-    padding: 20px 0 0 45px;
+    padding: 20px 0 20px 45px;
   }
+
+  button.button-menu,
+  button.button-menu:hover{
+    border-radius: 5px;
+    background-color:  #E5A512!important;
+    border: 4px solid  #E5A512;
+    color: white!important;
+    margin: auto;
+    width: 100px;
+    padding: 8px 5px;
+  }
+
+  button.button-menu span,
+  button.button-menu:hover span{
+    font-family: "Adam CG Pro";
+  }
+
+  /* ########## HEADER ########### */
+  /* Logo ADEP */
+  .logo{
+    width: 220px;
+  }
+
 
 }
 
@@ -164,12 +222,13 @@ label.recherche img.logo-loupe{
     margin: 0;
     border-top: 10px solid #E5A512;
     padding-left: 0;
-    border-bottom: 1px solid #F1F1F3;
+
     /*font-family: "Adam CG Pro"!important;*/
   }
 
   .navLarge div{
-    border: 1px solid #F1F1F3;
+    border-bottom: 1px solid #F1F1F3!important;
+    border-left: 1px solid #F1F1F3!important;
   }
 
   .navLarge div:first-child{
@@ -221,13 +280,18 @@ label.recherche img.logo-loupe{
   .navLarge li:nth-child(3),
   .navLarge li:nth-child(4),
   .navLarge li:nth-child(5),
-  .navLarge li:nth-child(6){
+  .navLarge li:nth-child(6),
+  div.nav-connexion li{
     transition: border .3s ease-out, color .3s ease-out;
   }
 
   .navLarge div:first-child li:first-child:hover{
     border-bottom: 4px solid #004899!important;
     color: black!important;
+  }
+
+  div.nav-connexion li:hover{
+    border-bottom: 4px solid #F1F1F3!important;
   }
 
   .navLarge div:first-child li:nth-child(2):hover{
@@ -258,32 +322,27 @@ label.recherche img.logo-loupe{
     /*border: 1px solid red;*/
   }
 
-  /* Logo ADEP */
-  .logo{
-    width: 220px;
-    /*margin-left: 100px;*/
-  }
-
-  .header-titre{
-    margin: auto;
-    /*width: 60%;*/
-  }
-
-  h1{
+  .header-titre h1{
     font-family: "Adam CG Pro";
     letter-spacing: 5px;
     font-size: 4em;
     margin: 0;
   }
 
-  h2{
+  .header-titre h2{
     font-family: "Adam CG Pro";
     font-size: 1.5em;
     margin: -10px 0 0 0;
+    /*font-weight: lighter!important;*/
   }
 
 
   label.recherche{
     padding: 25px;
+  }
+
+
+  .logo{
+    width: 220px;
   }
 }
