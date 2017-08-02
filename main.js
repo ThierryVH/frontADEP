@@ -26,6 +26,8 @@ recherche.onblur = closeSearch;
 function openSearch(){
   divConnexion.style.display = "none";
   divButton.style.display = "none";
+  clickRecherche.placeholder = "Recherche";
+  recherche.placeholder = "Recherche";
 }
 
 function closeSearch(){
@@ -33,4 +35,6 @@ function closeSearch(){
   divButton.style.display = "flex";
   clickRecherche.value = "";
   recherche.value = "";
+  clickRecherche.placeholder = "";
+  recherche.placeholder = "";
 }
