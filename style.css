@@ -43,16 +43,6 @@ Hexa: #F1F1F3s
 
 /*################# MOBILE & TABLET NAVIGATION #################*/
 
-/* Main navbar */
-header nav.nav-mobile{
-  width: 100%;
-  display: block;
-}
-
-.nav-mobile li:nth-child(8){
-  margin-bottom: 30px;
-}
-
 nav a {
   text-decoration: none;
   font-size: 13px;
@@ -98,18 +88,18 @@ div.nav-closeSidebar{
 
 
 .recherche{
-  width:70%;
+  width:80%;
   height: 100%;
-  border: 1px solid red;
+  border: 0;
   margin: auto;
 }
 
-label{
+label.recherche{
   margin: auto;
-  padding: 25px;
+  padding: 10px 25px 5px 25px;
 }
 
-label img{
+label.recherche img.logo-loupe{
   width: 20px;
 }
 
@@ -118,16 +108,42 @@ label img{
     border-bottom: 1px solid #F1F1F3;
     font-family: "Adam CG Pro";
     padding: 10px;
+    display: flex;
+  }
+
+  .mySidebar li img{
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
   }
 
   .mySidebar li:nth-child(8){
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     border-bottom: 0;
   }
 
   .mySidebar li:last-child{
     border-bottom: 0;
   }
+
+  .recherche{
+    font-family: Verdana, sans-serif;
+  }
+
+  li.w3-button img.logo-menu{
+    width: 40px;
+    height: 40px;
+  }
+
+  .recherche-mobile{
+    font-size: 0.8em;
+    color: grey;
+  }
+
+  ul.mySidebar li:first-child{
+    padding: 20px 0 0 45px;
+  }
+
 }
 
 /*######################################################*/
@@ -261,4 +277,8 @@ label img{
     margin: -10px 0 0 0;
   }
 
+
+  label.recherche{
+    padding: 25px;
+  }
 }
