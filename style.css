@@ -232,6 +232,11 @@ label.recherche img.logo-loupe{
     background-color: #F1F1F3;
     margin-bottom: 20px;
     border-radius: 3px;
+    padding-bottom: 20px;
+  }
+
+  footer a{
+    text-decoration: none;
   }
 
   .footer-content{
@@ -311,6 +316,79 @@ label.recherche img.logo-loupe{
     margin: auto;
   }
 
+  .footer-contact{
+    margin: 30px 0 70px 0;
+    text-align: center;
+  }
+
+  .footer-social{
+    width: 280px;
+    margin: auto;
+  }
+
+  .footer-social div{
+    width: 50%;
+  }
+
+  .footer-social div p{
+    margin: 0;
+  }
+
+  .footer-mail{
+    width: 220px;
+    margin: auto;
+  }
+
+  .footer-contact img{
+    width: 25px;
+    height: 25px;
+    margin: auto 5px auto 0;
+  }
+
+  .footer-developer{
+    width: 180px;
+    margin: 15px auto 0 auto;
+  }
+
+  .footer-developer p{
+    text-align: center;
+    margin: 0;
+    color: #AEAEAE;
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  .footer-developer a{
+    text-decoration: none;
+    font-weight: 400;
+    margin: 0 4px;
+  }
+
+  .footer-developer a:hover{
+    color: #E5A512;
+  }
+
+  .footer-hr-dev{
+    border: 1px solid lightgrey;
+    width: 60%;
+    margin: 15px auto;
+  }
+
+  .footer-link{
+    font-family: "Adam CG Pro";
+    font-size: 12px;
+    color: #AEAEAE;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 0;
+    max-width: 430px;
+  }
+
+  .footer-link li{
+    list-style-type: none;
+    margin: 0;
+  }
 
 
 /*##########################################################*/
@@ -412,6 +490,26 @@ label.recherche img.logo-loupe{
   .footer-info-p{
     width: 50%;
     font-size: 15px;
+  }
+
+  .footer-developer{
+    margin: 30px auto 10px auto;
+  }
+
+  .footer-hr-dev{
+    width: 70%;
+  }
+
+  .footer-link{
+    font-size: 15px;
+  }
+
+  .footer-link li{
+    transition: color .3s ease-out;
+  }
+
+  .footer-link li:hover{
+    color: black;
   }
 
 }
@@ -616,6 +714,14 @@ label.recherche img.logo-loupe{
 
   .footer-info-bis{
     max-width: 850px;
+  }
+
+  .footer-developer{
+    margin: 30px auto 20px auto;
+  }
+
+  .footer-link{
+    max-width: 500px;
   }
 
 
