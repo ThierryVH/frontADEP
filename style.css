@@ -716,6 +716,19 @@ label.recherche img.logo-loupe{
     max-width: 850px;
   }
 
+  .footer-contact{
+    font-size: 20px;
+  }
+
+  .footer-mail{
+    width: 270px;
+  }
+
+  .footer-social {
+    width: 340px;
+  }
+
+
   .footer-developer{
     margin: 30px auto 20px auto;
   }
