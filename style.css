@@ -321,9 +321,14 @@ label.recherche img.logo-loupe{
     text-align: center;
   }
 
+  .footer-contact p{
+    font-size: 13px;
+  }
+
   .footer-social{
-    width: 280px;
+    max-width: 280px;
     margin: auto;
+    min-width: 240px
   }
 
   .footer-social div{
@@ -507,6 +512,10 @@ label.recherche img.logo-loupe{
     font-size: 15px;
   }
 
+  .footer-contact p{
+    font-size: 15px;
+  }
+
   .footer-developer{
     margin: 30px auto 10px auto;
   }
@@ -545,7 +554,6 @@ label.recherche img.logo-loupe{
   /* Main navbar */
   .main-nav{
     border-top: 10px solid #E5A512;
-    border-bottom: 1px solid #F1F1F3!important;
   }
 
   .navLarge{
@@ -733,10 +741,6 @@ label.recherche img.logo-loupe{
 
   .footer-contact{
     font-size: 20px;
-  }
-
-  .footer-mail{
-    width: 270px;
   }
 
   .footer-social {

@@ -1,0 +1,66 @@
+.form-content{
+  width: 300px;
+  margin: 180px auto 50px auto;
+  background-color: #F1F1F3;
+  border-radius: 3px;
+}
+
+.form-inscription{
+  padding: 0px 20px 50px 20px;
+  margin: 0 15px;
+}
+
+.button-form{
+  box-shadow: 0 0 0 white!important;
+}
+
+.form-div-logo{
+  margin: auto;
+  width: 80%;
+}
+
+.form-hr hr{
+  width: 68px;
+  border: 1px solid black;
+  margin-top: 47px;
+}
+
+.form-inscription input{
+  border-radius: 3px;
+}
+
+@media (min-width: 701px) {
+  .form-content{
+    width: 600px;
+    margin: 200px auto 80px auto;
+  }
+
+  .form-inscription{
+    padding: 0px 20px 50px 20px;
+    margin: 0 80px;
+  }
+
+  .form-div-logo{
+    width: 80%;
+  }
+
+  .form-hr hr{
+    width: 161px;
+    margin-top: 73px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .form-inscription{
+    padding: 0px 20px 50px 20px;
+    margin: 0 80px;
+  }
+
+  .form-hr hr{
+    width: 140px;
+    margin-top: 95px;
+  }
+
+}
