@@ -12,6 +12,16 @@
 
 .button-form{
   box-shadow: 0 0 0 white!important;
+  background-color: #004899;
+  color: white;
+  width: 230px;
+  margin-top: 10px;
+}
+
+.button-form:last-child{
+  border: 1px solid #aaa;
+  background-color: lightgrey;
+  color: #525252;
 }
 
 .form-div-logo{
@@ -25,7 +35,8 @@
   margin-top: 47px;
 }
 
-.form-inscription input{
+.form-inscription input,
+.form-inscription button{
   border-radius: 3px;
 }
 
@@ -47,6 +58,18 @@
   .form-hr hr{
     width: 161px;
     margin-top: 73px;
+  }
+
+  .form-buttons{
+    display: flex;
+  }
+
+  .button-form{
+    width: 190px;
+  }
+
+  .button-form:first-child{
+    margin-right: auto;
   }
 
 }
