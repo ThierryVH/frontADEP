@@ -5,7 +5,7 @@
   border-radius: 3px;
 }
 
-.form-inscription{
+.form-container{
   padding: 0px 20px 50px 20px;
   margin: 0 15px;
 }
@@ -35,8 +35,8 @@
   margin-top: 47px;
 }
 
-.form-inscription input,
-.form-inscription button{
+.form-container input,
+.form-container button{
   border-radius: 3px;
 }
 
@@ -46,8 +46,7 @@
     margin: 200px auto 80px auto;
   }
 
-  .form-inscription{
-    padding: 0px 20px 50px 20px;
+  .form-container{
     margin: 0 80px;
   }
 
@@ -75,11 +74,6 @@
 }
 
 @media (min-width: 992px) {
-
-  .form-inscription{
-    padding: 0px 20px 50px 20px;
-    margin: 0 80px;
-  }
 
   .form-hr hr{
     width: 140px;

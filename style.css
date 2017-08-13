@@ -89,7 +89,7 @@ div.nav-closeSidebar{
   height: 100%!important;
 }
 
-.ul-Sidebar .w3-button:hover{
+.w3-button:hover{
   background-color: white!important;
 }
 
@@ -562,28 +562,29 @@ label.recherche img.logo-loupe{
     /*font-family: "Adam CG Pro"!important;*/
   }
 
-  .navLarge div{
+  .navLarge>ul,
+  .navLarge>div{
     border-left: 1px solid #F1F1F3!important;
   }
 
-  .navLarge div:first-child{
+  .navLarge>ul:first-child{
     width: 60%;
     min-width: 712px;
     justify-content: space-around;
   }
 
-  .navLarge div:nth-child(2){
+  .navLarge>div:first-child{
     width: 22%;
   }
 
-  .navLarge div:last-child{
+  .navLarge>div:last-child{
     width: 18%;
     justify-content: space-around;
     min-width: 200px;
   }
 
   .navLarge-connexion{
-    padding: 25px 10px!important;
+    padding: 0 10px!important;
   }
 
   .navLarge li{
@@ -594,58 +595,55 @@ label.recherche img.logo-loupe{
     /*margin: 0!important;*/
   }
 
-  .navLarge div:first-child li{
-    padding: 25px 13px;
+  .navLarge ul{
+    padding: 0;
+    margin: 0;
+  }
+
+  .navLarge>ul:first-child>li{
+    padding: 0 13px;
   }
 
   .navLarge li:hover{
     background-color: white!important;
   }
 
-  .navLarge li:first-child{
-    margin-left: 1.5%;
-  }
-
-  .navLarge li:last-child{
-    margin-right: 1.5%;
-  }
-
-  .navLarge li:first-child,
-  .navLarge li:nth-child(2),
-  .navLarge li:nth-child(3),
-  .navLarge li:nth-child(4),
-  .navLarge li:nth-child(5),
-  .navLarge li:nth-child(6),
-  div.nav-connexion li{
+  .navLarge>ul.first-ul>li:first-child,
+  .navLarge>ul.first-ul>li:nth-child(2),
+  .navLarge>ul.first-ul>li:nth-child(3),
+  .navLarge>ul.first-ul>li:nth-child(4),
+  .navLarge>ul.first-ul>li:nth-child(5),
+  .navLarge>ul.first-ul>li:nth-child(6),
+  .navLarge-connexion{
     transition: border .3s ease-out, color .3s ease-out;
   }
 
-  .navLarge div:first-child li:first-child:hover{
+  .navLarge ul.first-ul li:first-child:hover{
     border-bottom: 4px solid #004899!important;
     color: black!important;
   }
 
-  div.nav-connexion li:hover{
-    border-bottom: 4px solid #F1F1F3!important;
+  .navLarge-connexion:hover{
+    border-bottom: 4px solid #ccc!important;
   }
 
-  .navLarge div:first-child li:nth-child(2):hover{
+  .navLarge ul.first-ul li:nth-child(2):hover{
     border-bottom: 4px solid #A83C17!important;
   }
 
-  .navLarge div:first-child li:nth-child(3):hover{
+  .navLarge ul.first-ul li:nth-child(3):hover{
     border-bottom: 4px solid #FFE62D!important;
   }
 
-  .navLarge div:first-child li:nth-child(4):hover{
+  .navLarge ul.first-ul li:nth-child(4):hover{
     border-bottom: 4px solid #E5A512!important;
   }
 
-  .navLarge div:first-child li:nth-child(5):hover{
+  .navLarge ul.first-ul li:nth-child(5):hover{
     border-bottom: 4px solid #538335!important;
   }
 
-  .navLarge div:first-child li:nth-child(6):hover{
+  .navLarge ul.first-ul li:nth-child(6):hover{
     border-bottom: 4px solid #2D237A!important;
   }
 
@@ -657,7 +655,7 @@ label.recherche img.logo-loupe{
 
   .header-logo{
     width: 780px;
-    margin: 50px auto;
+    margin: 50px auto 20px auto;
     color: #525252;
     /*border: 1px solid red;*/
   }
@@ -754,6 +752,16 @@ label.recherche img.logo-loupe{
 
   .footer-link{
     max-width: 500px;
+  }
+
+  section,
+  aside{
+    height: 500px;
+    padding: 0 50px;
+  }
+
+  .section-main{
+    height: 300px;
   }
 
 
