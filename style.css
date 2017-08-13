@@ -135,7 +135,6 @@ label.recherche img.logo-loupe{
 
   .div-logo-mobile img{
     width: 70px;
-    height: 70px;
     margin: auto;
   }
 
@@ -430,8 +429,7 @@ label.recherche img.logo-loupe{
   }
 
   .div-logo-mobile img{
-    width: 100px;
-    height: 100px;
+    width: 90px;
   }
 
   .div-search-mobile{
