@@ -43,6 +43,10 @@ Hexa: #F1F1F3s
   display: flex;
 }
 
+.space-around{
+  justify-content: space-around;
+}
+
 main{
   width: 90%;
   margin: auto;
@@ -325,13 +329,13 @@ label.recherche img.logo-loupe{
   }
 
   .footer-social{
-    max-width: 280px;
+    max-width: 296px;
     margin: auto;
     min-width: 240px
   }
 
   .footer-social div{
-    width: 50%;
+    width: 42%;
   }
 
   .footer-social div p{
@@ -339,7 +343,7 @@ label.recherche img.logo-loupe{
   }
 
   .footer-mail{
-    width: 220px;
+    width: 190px;
     margin: auto;
   }
 
@@ -508,6 +512,10 @@ label.recherche img.logo-loupe{
   .footer-info-p{
     width: 50%;
     font-size: 15px;
+  }
+
+  .footer-mail{
+    width: 210px;
   }
 
   .footer-contact p{
