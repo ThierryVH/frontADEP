@@ -432,6 +432,10 @@ label.recherche img.logo-loupe{
     min-width: 120px;
   }
 
+  .div-logo-mobile{
+    height: 100%;
+  }
+
   .div-logo-mobile img{
     width: 90px;
     /*height: auto;*/
