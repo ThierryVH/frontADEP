@@ -434,6 +434,7 @@ label.recherche img.logo-loupe{
 
   .div-logo-mobile img{
     width: 90px;
+    height: auto;
   }
 
   .div-search-mobile{
