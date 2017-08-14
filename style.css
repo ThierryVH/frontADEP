@@ -233,6 +233,24 @@ label.recherche img.logo-loupe{
   }
 
 
+  /*##################################
+  ###### SECTION PARTENAIRES #######
+  ##################################*/
+
+  .section-partenaires{
+    margin: 80px 0;
+  }
+
+  .section-partenaires img{
+    width:100px;
+    margin: auto;
+  }
+
+  .section-partenaires h3{
+    font-family: "Adam CG Pro";
+    margin-bottom: 40px;
+  }
+
   /*#################### FOOTER ###################*/
 
   footer{
@@ -707,6 +725,14 @@ label.recherche img.logo-loupe{
   .logo{
     width: 220px;
     margin-right: 50px;
+  }
+
+  /*##################################
+  ###### SECTION PARTENAIRES #######
+  ##################################*/
+
+  .section-partenaires img{
+    width:150px;
   }
 
   /*################# FOOTER #################*/
