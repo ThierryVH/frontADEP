@@ -433,12 +433,12 @@ label.recherche img.logo-loupe{
   }
 
   .div-logo-mobile a{
-    height: 100px;
+    height: 100px!important;
   }
 
-  .div-logo-mobile img{
+  .div-logo-mobile a img{
     width: 90px;
-    /*height: auto;*/
+    height: 95px;
   }
 
   .div-search-mobile{
