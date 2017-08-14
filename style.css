@@ -243,6 +243,7 @@ label.recherche img.logo-loupe{
 
   .section-partenaires img{
     width:100px;
+    height: 100px;
     margin: auto;
   }
 
@@ -733,6 +734,7 @@ label.recherche img.logo-loupe{
 
   .section-partenaires img{
     width:150px;
+    height: 150px;
   }
 
   /*################# FOOTER #################*/
