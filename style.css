@@ -502,7 +502,7 @@ label.recherche img.logo-loupe{
   }
 
   header{
-    padding: 50px 0;
+    padding: 50px 0 25px 0;
   }
 
   .header-titre{
@@ -703,6 +703,10 @@ label.recherche img.logo-loupe{
   }
 
   /****** HEADER ******/
+
+  header{
+    padding: 50px 0 ;
+  }
 
   .header-logo{
     width: 780px;
