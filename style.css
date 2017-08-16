@@ -228,7 +228,7 @@ label.recherche img.logo-loupe{
   }
 
   header{
-    padding: 50px 0;
+    padding: 20px 0;
   }
 
   .header-titre{
@@ -499,6 +499,10 @@ label.recherche img.logo-loupe{
   button.button-menu span,
   button.button-menu:hover span{
     font-size: 18px!important;
+  }
+
+  header{
+    padding: 50px 0;
   }
 
   .header-titre{
