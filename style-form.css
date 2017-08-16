@@ -1,6 +1,6 @@
 .form-content{
   width: 300px;
-  margin: 180px auto 50px auto;
+  margin: 0 auto 50px auto;
   background-color: #F1F1F3;
   border-radius: 3px;
 }
@@ -43,7 +43,7 @@
 @media (min-width: 701px) {
   .form-content{
     width: 600px;
-    margin: 200px auto 80px auto;
+    margin: 50px auto 80px auto;
   }
 
   .form-container{
