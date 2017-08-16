@@ -1,6 +1,6 @@
 .form-content{
   width: 300px;
-  margin: 0 auto 50px auto;
+  margin: 50px auto;
   background-color: #F1F1F3;
   border-radius: 3px;
 }
@@ -78,6 +78,10 @@
   .form-hr hr{
     width: 140px;
     margin-top: 95px;
+  }
+
+  .form-content{
+    margin: 50px auto 80px auto;
   }
 
 }

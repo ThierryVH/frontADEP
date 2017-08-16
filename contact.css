@@ -41,6 +41,7 @@
 .form-content-contact{
   /*margin-top: 130px;*/
   padding-top: 45px;
+  margin-top: 20px;
 }
 
 @media (min-width: 701px) {
@@ -54,8 +55,7 @@
   }
 
   .form-content-contact{
-    /*margin-top: 140px;*/
-    padding-top: 45px;
+    margin-top: 50px;
   }
 
   .form-hr-contact hr{
