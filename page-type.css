@@ -6,15 +6,15 @@
 
 .titre{
   border-bottom: 1px solid #525252;
-  margin-bottom: 40px;
+  margin: 60px auto 40px auto;
   font-family: "Adam CG Pro";
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .titre .text{
   background-color: white;
   position: relative;
-  top: 20px;
+  top: 13px;
   padding: 0 20px;
 }
 
