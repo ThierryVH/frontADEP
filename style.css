@@ -8,6 +8,10 @@ body,
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+nav{
+  z-index: 1;
+}
+
 /*
 Jaune  LES NUMERIQUES
 Hexa: #FFE62D
