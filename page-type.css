@@ -1,0 +1,81 @@
+.titre,
+.section-cards{
+  width: 250px;
+  margin: auto;
+}
+
+.titre{
+  border-bottom: 1px solid #525252;
+  margin-bottom: 40px;
+  font-family: "Adam CG Pro";
+  font-size: 20px;
+}
+
+.titre .text{
+  background-color: white;
+  position: relative;
+  top: 20px;
+  padding: 0 20px;
+}
+
+@media (min-width: 300px) {
+  .titre,
+  .section-cards{
+    width: 280px;
+  }
+}
+
+@media (min-width: 400px) {
+  .titre,
+  .section-cards{
+    width: 350px;
+  }
+}
+
+@media (min-width: 500px) {
+  .titre,
+  .section-cards{
+    width: 450px;
+  }
+}
+
+@media (min-width: 608px) {
+  .titre,
+  .section-cards{
+    width: 550px;
+  }
+}
+
+@media (min-width: 701px) {
+  .titre,
+  .section-cards{
+    width: 620px;
+  }
+}
+
+@media (min-width: 827px) {
+  .titre,
+  .section-cards{
+    width: 745px;
+  }
+
+}
+
+@media (min-width: 973px) {
+  .titre,
+  .section-cards{
+    width: 875px;
+  }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1086px) {
+  .titre,
+  .section-cards{
+    width: 1030px;
+  }
+
+}
