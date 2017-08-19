@@ -4,8 +4,12 @@
 }
 
 .triangle-page-type{
-  width: 100px;
+  width: 70px;
   margin: auto;
+}
+
+.triangle-page-type img{
+  width: 70px;
 }
 
 .titre{
@@ -70,6 +74,15 @@
 
 
 @media (min-width: 701px) {
+
+  .triangle-page-type{
+    width: 100px;
+  }
+
+  .triangle-page-type img{
+    width: 100px;
+  }
+
   .titre{
     width: 86%;
   }
