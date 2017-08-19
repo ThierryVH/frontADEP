@@ -7,16 +7,17 @@
   width: 95%;
   margin: auto;
   border-bottom: 1px solid #e5e5e5;
-  margin: 60px auto 40px auto;
+  margin: 15px auto 40px auto;
   font-family: "Adam CG Pro";
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .titre .text{
   background-color: white;
   position: relative;
-  top: 13px;
+  top: 18px;
   padding: 0 20px;
+  color: #525252;
 }
 
 .formation-card{
