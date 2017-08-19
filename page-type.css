@@ -15,10 +15,14 @@
 .titre{
   width: 95%;
   margin: auto;
-  border-bottom: 1px solid #e5e5e5;
   margin: 0 auto 40px auto;
   font-family: "Adam CG Pro";
   font-size: 20px;
+}
+
+.titre-partenaires{
+  font-size: 15px;
+  margin: 60px auto;
 }
 
 .titre .text{
@@ -85,6 +89,16 @@
 
   .titre{
     width: 86%;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 25px;
+  }
+
+  .titre-partenaires{
+    font-size: 20px;
+  }
+
+  .titre .text{
+    top: 18px;
   }
 
   .card-container{
@@ -107,14 +121,6 @@
   .card-content:hover{
     border: 2px solid white;
     box-shadow: 0 0 12px lightgrey;
-  }
-
-  .titre{
-    font-size: 20px;
-  }
-
-  .titre .text{
-    top: 18px;
   }
 
   .formation-card {
