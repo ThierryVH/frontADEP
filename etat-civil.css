@@ -1,0 +1,208 @@
+
+
+.form-content-inscription{
+  width: 100%;
+  margin: 0 auto 120px;
+  padding: 30px 0;
+  border-radius: 3px;
+}
+
+.first-part,
+.second-part{
+  padding: 0 20px;
+}
+
+.duo{
+  flex-direction: column;
+  margin: 2px 0 -15px 0;
+}
+/*
+.duo p{
+  margin-top: 0!important;
+}
+
+.nom,
+.nom-fille,
+.commune,
+.departement,
+.code-postal,
+.ville{
+  width: 48%;
+}
+
+.duo p:first-child{
+  margin-right: auto;
+}*/
+
+.etapes{
+  width: 90%;
+  margin: 0 auto 30px ;
+}
+
+.etapes>p{
+  width: 100%;
+  text-align: center;
+}
+
+.step{
+  width: 28%;
+  text-align: center;
+}
+
+.step p {
+  margin: auto;
+  color: black;
+}
+
+.step p:nth-child(2){
+  font-size: 22px;
+}
+
+.circle{
+  font-size: 25px;
+  width: 47px;
+  height: 47px;
+  font-weight: bold;
+  display: block;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+
+.fleche{
+  width: 8%;
+}
+
+.fleche img{
+  width: 100%;
+  height: 40%;
+  margin-top: 30%;
+}
+
+.step1{
+  opacity: 1;
+}
+
+.step2,
+.step3,
+.fleche1,
+.fleche2{
+  opacity: .1;
+}
+
+.adresse{
+  margin: 15px 0 17px;
+}
+
+.inscription-buttons{
+  width: 100%;
+  padding: 0 20px;
+  margin: 20px auto 0;
+  flex-direction: column;
+}
+
+.inscription-buttons input,
+.inscription-buttons button{
+  width: 100%;
+}
+
+.buttons-etape{
+  width: 90%;
+  margin: 40px auto 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttons-etape form{
+  text-align: center;
+  margin: 15px;
+}
+
+.buttons-etape input{
+  background-color: white;
+  color: lightgrey;
+  transition: color ease .3s;
+  border: none;
+}
+
+.buttons-etape input:hover{
+  cursor: pointer;
+  color: black;
+}
+
+@media (min-width:701px) {
+  .inscription-buttons{
+    width: 75%;
+    margin: 10px auto 0;
+    flex-direction: row;
+  }
+
+  .inscription-buttons input,
+  .inscription-buttons button{
+    width: 48%;
+  }
+
+  .buttons-etape{
+    flex-direction: row;
+  }
+
+
+  .form-content-inscription{
+    width: 90%;
+  }
+
+  .suivante{
+    width: 48%;
+  }
+
+  .etapes{
+    width: 60%;
+    margin: auto;
+  }
+
+  .duo{
+    margin: 2px 0 -15px 0;
+    flex-direction: row;
+  }
+
+  .duo p{
+    margin-top: 0!important;
+  }
+
+  .nom,
+  .nom-fille,
+  .commune,
+  .departement,
+  .code-postal,
+  .ville{
+    width: 48%;
+  }
+
+  .duo p:first-child{
+    margin-right: auto;
+  }
+
+  .numero{
+    width: 14%;
+    margin-right: auto;
+  }
+
+  .voie{
+    width: 82%;
+  }
+}
+
+@media (min-width: 992px) {
+  .first-part{
+    border-right: 1px solid lightgrey;
+  }
+
+  .etapes{
+    width: 48%;
+    margin: auto;
+  }
+
+  .inscription-buttons{
+    width: 45%;
+  }
+
+}

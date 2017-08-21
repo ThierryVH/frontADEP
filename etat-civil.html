@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
+    <title>Inscription étape 2</title>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="w3.css">
     <link rel="stylesheet" href="style-form.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contact.css">
-
+    <link rel="stylesheet" href="etat-civil.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
   </head>
-
   <body>
+
 
     <nav class="main-nav">
 
@@ -25,7 +26,9 @@
     <!-- end div to close sidebar -->
 
     <div class="div-logo-mobile">
-      <a href="index.html" class="flex"><img src="img/adep-logo-cut.png" alt="Logo ADEP"></a>
+      <a href="index.html" class="flex">
+        <img class="logo-adep" src="img/adep-logo-cut.png" alt="Logo ADEP">
+      </a>
     </div>
 
       <div class="div-search-mobile flex">
@@ -146,6 +149,7 @@
   </nav>
 
   <main>
+
     <div class="breadcrumb flex">
       <p>
         <a href="index.html">Accueil</a>
@@ -161,67 +165,202 @@
     </div>
 
 
-      <div class="w3-card-2 form-content form-content-contact">
 
-        <!-- <div class="footer-logo-contact">
-          <img src="img/adep-logo-cut.png" alt="logo ADEP">
-        </div> -->
 
-        <div class="form-div-logo form-div-logo-contact flex">
 
-          <div class="form-hr-contact">
-            <hr>
+    <div class="w3-card-2 form-content-inscription">
+
+      <!-- <div class="footer-logo-contact">
+        <img src="img/adep-logo-cut.png" alt="logo ADEP">
+      </div> -->
+
+        <div class="etapes flex">
+          <div class="step step1">
+            <p class="circle">1</p>
+            <p>Etat civil</p>
           </div>
-          <h2 class="contact">Contactez-nous</h2>
-          <div class="form-hr-contact">
-            <hr>
+          <div class="fleche fleche1 flex">
+            <img src="img/fleche.png" alt="">
           </div>
-
+          <div class="step step2">
+            <p class="circle">2</p>
+            <p>Statut</p>
+          </div>
+          <div class="fleche fleche2 flex">
+            <img src="img/fleche.png" alt="">
+          </div>
+          <div class="step step3">
+            <p class="circle">3</p>
+            <p>Niveau</p>
+          </div>
         </div>
 
-        <form class="w3-container form-container form-contact">
-          
-          <div class="flex choix-civilite">
-            <input id="madame" class="w3-radio" type="radio" name="gender" value="madame">
-            <label for="madame">Madame</label>
+      <form id="etat-civil" class="w3-container form-contact">
+        <!-- <p class="civilite">Civilité</p>
+        <p class="flex">
+          <input id="madame" class="w3-radio" type="radio" name="gender" value="madame">
+          <label for="madame">Madame</label>
 
-            <input id="monsieur" class="w3-radio" type="radio" name="gender" value="monsieur">
-            <label for="monsieur">Monsieur</label>
-          </div>
-
-            <p>
-              <label for="nom">Nom</label>
-              <input id="nom" class="w3-input w3-border" type="text">
-            </p>
-
-            <p>
-              <label for="prenom">Prénom</label>
-              <input id="prenom" class="w3-input w3-border" type="text">
-            </p>
+          <input id="monsieur" class="w3-radio" type="radio" name="gender" value="monsieur">
+          <label for="monsieur">Monsieur</label>
+        </p>
 
           <p>
-            <label for="email">E-mail</label>
-            <input id="email" class="w3-input w3-border" type="email">
+            <label for="nom">Nom</label>
+            <input id="nom" class="w3-input w3-border" type="text">
           </p>
 
           <p>
-            <label for="phone">Téléphone</label>
-            <input id="phone" class="w3-input w3-border" type="tel">
+            <label for="prenom">Prénom</label>
+            <input id="prenom" class="w3-input w3-border" type="text">
           </p>
 
-          <p>
-            <label for="message">Message</label>
-            <textarea id="message" class="contact-message w3-input w3-border" name="message" rows="4" cols="47"></textarea>
+        <p>
+          <label for="email">E-mail</label>
+          <input id="email" class="w3-input w3-border" type="email">
+        </p>
+
+        <p>
+          <label for="phone">Téléphone</label>
+          <input id="phone" class="w3-input w3-border" type="tel">
+        </p>
+
+        <p>
+          <label for="message">Message</label>
+          <textarea id="message" class="contact-message w3-input w3-border" name="message" rows="4" cols="47"></textarea>
+        </p> -->
+        <div class="w3-row">
+        <div class="first-part w3-col l6">
+        <div class="flex choix-civilite">
+          <input id="madame" class="w3-radio" type="radio" name="gender" value="madame">
+          <label for="madame">Madame</label>
+
+          <input id="monsieur" class="w3-radio" type="radio" name="gender" value="monsieur">
+          <label for="monsieur">Monsieur</label>
+        </div>
+
+        <div class="flex duo">
+        <p class="nom">
+          <label for="nom">Nom</label>
+          <input id="nom" name="nom" class="w3-input w3-border" type="text">
+        </p>
+
+        <p class="nom-fille">
+          <label for="nom-fille">Nom de jeune fille</label>
+          <input id="nom-fille" name="nom-fille" class="w3-input w3-border" type="text">
+        </p>
+        </div>
+
+        <p>
+          <label for="prenom">Prénom</label>
+          <input id="prenom" name="prenom" class="w3-input w3-border" type="text">
+        </p>
+
+        <p>
+          <label for="date-naissance">Date de naissance (JJ/MM/AAAA)</label>
+          <input id="date-naissance" name="date-naissance" class="w3-input w3-border" type="text" placeholder="Exemple: 15/01/1986">
+        </p>
+
+        <div class="flex duo">
+          <p class="commune">
+            <label for="commune-naissance">Commune de naissance</label>
+            <input id="commune-naissance" name="commune-naissance" class="w3-input w3-border" type="text">
           </p>
 
-          <div class="form-buttons">
-            <input type="submit" class="w3-btn button-form" value="Envoyer">
-            <button class="w3-btn button-form" type="button" name="button">Annuler</button>
-          </div>
-        </form>
+          <p class="departement">
+            <label for="departement-naissance">Département de naissance</label>
+            <input id="departement-naissance" name="departement-naissance" class="w3-input w3-border" type="text">
+          </p>
+        </div>
+
+        <p>
+          <label for="nationalite">Nationalité</label>
+          <input id="nationalite" name="nationalite" class="w3-input w3-border" type="text">
+        </p>
+
+        <p>
+          <label for="date-entree">Date d'entrée en France (JJ/MM/AAAA)</label>
+          <input id="date-entree" name="date-entree" class="w3-input w3-border" type="text" placeholder="Exemple: 15/01/1986">
+        </p>
+
       </div>
 
-      <!-- <iframe class="w3-card-4" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10113.811679666445!2d3.1919312!3d50.6744174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6ae6585f5725be4!2sA.D.E.P.!5e0!3m2!1sfr!2sfr!4v1502623918798" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+      <div class="second-part w3-col l6">
+        <p class="adresse">Adresse</p>
+        <div class="flex duo">
+          <p class="numero">
+            <label for="numero">N°</label>
+            <input id="numero" name="numero" class="w3-input w3-border" type="text">
+          </p>
+
+          <p class="voie">
+            <label for="voie">Voie</label>
+            <input id="voie" name="voie" class="w3-input w3-border" type="text">
+          </p>
+        </div>
+
+        <p>
+          <label for="complement">Complément d'adresse (appartement, bâtiment, etc.)</label>
+          <input id="complement" name="complement" class="w3-input w3-border" type="text">
+        </p>
+
+        <div class="duo flex">
+        <p class="code-postal">
+          <label for="code-postal">Code postal</label>
+          <input id="code-postal" name="code-postal" class="w3-input w3-border" type="text">
+        </p>
+
+        <p class="ville">
+          <label for="ville">Ville</label>
+          <input id="ville" name="ville" class="w3-input w3-border" type="text">
+        </p>
+        </div>
+
+        <p>
+          <label for="fixe">Téléphone fixe</label>
+          <input id="fixe" name="fixe" class="w3-input w3-border" type="tel">
+        </p>
+
+        <p>
+          <label for="portable">Téléphone portable</label>
+          <input id="portable" name="portable" class="w3-input w3-border" type="tel">
+        </p>
+
+        <p>
+          <label for="situation">Situation familiale</label>
+          <select id="situation" class="w3-select w3-border" name="situation" form="etat-civil">
+            <option value="selectionner">- Sélectionner votre choix -</option>
+            <option value="celibataire">Célibataire</option>
+            <option value="marie">Marié(e)</option>
+            <option value="divorce">Divorcé(e)</option>
+            <option value="veuf">veuf(ve)</option>
+            <option value="concubinage">Concubinage</option>
+          </select>
+        </p>
+
+
+      </div>
+
+      </div>
+
+
+        <div class="form-buttons inscription-buttons flex">
+
+          <input type="submit" class="w3-btn button-form suivante" value="Etape suivante">
+          <button class="w3-btn button-form suivante" type="button" name="button">Annuler</button>
+        </div>
+      </form>
+
+      <div class="buttons-etape flex">
+        <form class="" action="index.html" method="post">
+          <input type="submit" name="" value="Etape précédente">
+        </form>
+
+        <form class="" action="index.html" method="post">
+          <input type="submit" name="" value="Enregistrer et terminer plus tard">
+        </form>
+      </div>
+    </div>
 
     <footer>
 
@@ -298,7 +437,7 @@
         </div>
 
         <ul class="footer-link flex">
-          <li><a href="#">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="">Partenaires</a></li>
           <li><a href="">Plan du site</a></li>
         </ul>
@@ -319,12 +458,11 @@
 
     </footer>
 
-  </main>
+
+    </main>
 
     <script type="text/javascript" src="main.js">
 
     </script>
-
   </body>
-
 </html>

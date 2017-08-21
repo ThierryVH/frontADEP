@@ -25,7 +25,7 @@
   height: 20px;
 }
 
-.form-contact p label{
+.form-contact div label{
   margin: 0 30px 0 5px;
 }
 
@@ -34,8 +34,8 @@
   resize: vertical;
 }
 
-.civilite{
-  margin-left: 5px;
+.choix-civilite{
+  padding: 15px 0;
 }
 
 .form-content-contact{
