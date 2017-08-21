@@ -89,10 +89,6 @@
   opacity: .1;
 }
 
-.adresse{
-  margin: 15px 0 17px;
-}
-
 .inscription-buttons{
   width: 100%;
   padding: 0 20px;
@@ -191,7 +187,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 993px) {
   .first-part{
     border-right: 1px solid lightgrey;
   }
@@ -203,6 +199,10 @@
 
   .inscription-buttons{
     width: 45%;
+  }
+
+  .adresse{
+    margin: 15px 0 17px;
   }
 
 }
