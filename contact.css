@@ -21,8 +21,8 @@
 
 .w3-radio{
   position: static!important;
-  width: 18px;
-  height: 20px;
+  width: 18px!important;
+  height: 20px!important;
 }
 
 .form-contact div label{
