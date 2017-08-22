@@ -11,7 +11,7 @@
   display: none;
 }
 
-.form-etape-3 label{
+.form-etape-3 label ~ input[type=radio]{
   position: relative;
   bottom: 2px;
 }
