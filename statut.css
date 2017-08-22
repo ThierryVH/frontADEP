@@ -11,6 +11,11 @@
   display: none;
 }
 
+.form-etape-3 label{
+  position: relative;
+  bottom: 2px;
+}
+
 @media (min-width: 701px) {
  .form-etape-3{
    width: 65%;
