@@ -11,10 +11,12 @@
   display: none;
 }
 
-.form-etape-3 label ~ input[type=radio]{
-  position: relative;
-  bottom: 2px;
-}
+/*@media (max-width: 700px) {*/
+  .form-etape-3 input[type=radio] ~ label{
+    position: relative;
+    bottom: 5px;
+  }
+/*}*/
 
 @media (min-width: 701px) {
  .form-etape-3{
