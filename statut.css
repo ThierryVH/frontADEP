@@ -11,12 +11,10 @@
   display: none;
 }
 
-/*@media (max-width: 700px) {*/
-  .form-etape-3 input[type=radio] ~ label{
-    position: relative;
-    bottom: 5px;
-  }
-/*}*/
+.form-etape-3 input[type=radio] ~ label{
+  position: relative;
+  bottom: 2px;
+}
 
 @media (min-width: 701px) {
  .form-etape-3{

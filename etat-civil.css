@@ -33,7 +33,7 @@
 }*/
 
 .etapes{
-  width: 90%;
+  width: 70%;
   margin: 0 auto 30px ;
 }
 
@@ -52,18 +52,24 @@
   color: black;
 }
 
+
+
+
+
+
+
 .step p:nth-child(2){
-  font-size: 22px;
+  font-size: 16px;
 }
 
-.circle{
-  font-size: 25px;
-  width: 47px;
-  height: 47px;
-  font-weight: bold;
-  display: block;
-  border-radius: 50%;
-  border: 4px solid black;
+.circle {
+    font-size: 20px;
+    width: 38px;
+    height: 38px;
+    font-weight: bold;
+    display: block;
+    border-radius: 50%;
+    border: 3px solid black;
 }
 
 .fleche{
@@ -72,9 +78,14 @@
 
 .fleche img{
   width: 100%;
-  height: 40%;
+  height: 30%;
   margin-top: 30%;
 }
+
+
+
+
+
 
 .step1{
   opacity: 1;
@@ -132,6 +143,22 @@
 }
 
 @media (min-width:701px) {
+
+  .circle{
+    font-size: 25px;
+    width: 47px;
+    height: 47px;
+    border: 4px solid black;
+  }
+
+  .step p:nth-child(2){
+    font-size: 22px;
+  }
+
+  .fleche img{
+    height: 40%;
+  }
+
   .inscription-buttons{
     width: 75%;
     margin: 10px auto 0;
@@ -158,7 +185,6 @@
 
   .etapes{
     width: 60%;
-    margin: auto;
   }
 
   .duo{
@@ -200,7 +226,6 @@
 
   .etapes{
     width: 48%;
-    margin: auto;
   }
 
   .inscription-buttons{
