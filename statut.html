@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inscription étape 3</title>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="style-form.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="etat-civil.css">
+    <link rel="stylesheet" href="statut.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <nav class="main-nav">
+
+  <div class="flex w3-hide-large">
+
+    <!-- start div to close sidebar -->
+    <div onclick="w3_close()" class="w3-sidebar w3-collapse mySidebar nav-closeSidebar w3-hide-large"></div>
+    <!-- end div to close sidebar -->
+
+    <div class="div-logo-mobile">
+      <a href="index.html" class="flex">
+        <img class="logo-adep" src="img/adep-logo-cut.png" alt="Logo ADEP">
+      </a>
+    </div>
+
+      <div class="div-search-mobile flex">
+        <label class="recherche" for="recherche"><img class="logo-loupe" src="img/logo-loupe.png"></label>
+        <input id="recherche" class="recherche-mobile" type="text">
+      </div>
+    <!-- start main mobile & tablet navigation -->
+
+
+
+    <div class="flex div-button-menu w3-hide-large">
+
+        <!-- start ul sidebar -->
+        <ul class="w3-sidebar w3-bar-block w3-collapse w3-card-2 w3-animate-right mySidebar ul-Sidebar">
+
+          <li onclick="w3_close()" class="menu-button w3-bar-item w3-button">
+            MENU
+          </li>
+
+          <li>
+            <img src="img/triangle-bleu-clair.png">
+            <a href="#" class="w3-bar-item w3-button">Les Essentiels</a>
+          </li>
+          <li>
+            <img src="img/triangle-brun.png">
+            <a href="#" class="w3-bar-item w3-button">Les Langues</a>
+          </li>
+          <li>
+            <img src="img/triangle-jaune.png">
+            <a href="#" class="w3-bar-item w3-button">Les Numérique</a>
+          </li>
+          <li>
+            <img src="img/triangle-orange.png">
+            <a href="#" class="w3-bar-item w3-button">Les Artistiques</a>
+          </li>
+          <li>
+            <img src="img/triangle-vert.png">
+            <a href="#" class="w3-bar-item w3-button">Les Mains Vertes</a>
+          </li>
+          <li>
+            <img src="img/triangle-bleu-fonce.png">
+            <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+          </li>
+
+          <li>
+            <img src="img/triangle-gris.png">
+            <a href="connexion.html" class="w3-bar-item w3-button">Se Connecter</a>
+          </li>
+          <li>
+            <img src="img/triangle-gris.png">
+            <a href="inscription.html" class="w3-bar-item w3-button">S'inscrire</a>
+          </li>
+
+        </ul>
+        <!-- end ul sidebar -->
+
+
+      <button class="button-menu w3-button w3-teal w3-large w3-right" onclick="w3_open()"><span>MENU</span> &#9776;</button>
+
+    </div>
+
+    </div>
+    <!-- end main mobile & tablet navigation -->
+
+    <!-- start main desktop navigation -->
+    <!-- <ul class="flex navLarge w3-bar w3-hide-small w3-hide-medium">
+      <div class="flex">
+        <li class="w3-bar-item w3-button"><a href="#">Les Essentiels</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Les Langues</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Les Numériques</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Les Artistiques</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Les Mains Vertes</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Contact</a></li>
+      </div>
+
+      <div class="flex click-recherche">
+        <label class="recherche" for="recherche-desktop"><img class="logo-loupe" src="img/logo-loupe.png" alt=""></label>
+        <input id="recherche-desktop" class="recherche-desktop" type="text">
+      </div>
+
+      <div class="flex nav-connexion">
+        <div class="non-connected">
+          <li class="navLarge-connexion w3-bar-item w3-button"><a href="#">Se connecter</a></li>
+          <li class="navLarge-connexion w3-bar-item w3-button"><a href="#">S'inscrire</a></li>
+        </div>
+
+      </div>
+    </ul> -->
+
+    <div class="flex navLarge w3-bar w3-hide-small w3-hide-medium">
+      <ul class="flex first-ul">
+        <li class="w3-bar-item w3-button"><a href="#">Les Essentiels</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Les Langues</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Les Numériques</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Les Artistiques</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Les Mains Vertes</a></li>
+        <li class="w3-bar-item w3-button"><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="flex click-recherche">
+        <label class="recherche" for="recherche-desktop"><img class="logo-loupe" src="img/logo-loupe.png" alt=""></label>
+        <input id="recherche-desktop" class="recherche-desktop" type="text">
+      </div>
+
+      <div class="flex nav-connexion">
+        <ul class="non-connected flex">
+          <li class="navLarge-connexion w3-bar-item w3-button"><a href="connexion.html">Se connecter</a></li>
+          <li class="navLarge-connexion w3-bar-item w3-button"><a href="inscription.html">S'inscrire</a></li>
+        </ul>
+        <!-- <ul class="connected">
+          <li class="navLarge-connexion w3-bar-item w3-button"><a href="">Mon compte</a></li>
+
+        </ul> -->
+      </div>
+    </div>
+
+    <!-- end main desktop navigation -->
+  </nav>
+
+  <main>
+
+    <div class="breadcrumb flex">
+      <p>
+        <a href="index.html">Accueil</a>
+      </p>
+      <p class="triangle-breadcrumb">&gt;</p>
+      <p>
+        <a href="connexion.html">Connexion</a>
+      </p>
+      <p class="triangle-breadcrumb">&gt;</p>
+      <p>
+        <a href="connexion.html">Connexion</a>
+      </p>
+    </div>
+
+
+
+
+
+    <div class="w3-card-2 form-content-inscription">
+
+      <!-- <div class="footer-logo-contact">
+        <img src="img/adep-logo-cut.png" alt="logo ADEP">
+      </div> -->
+
+        <div class="etapes flex">
+          <div class="step step1">
+            <p class="circle">1</p>
+            <p>Etat civil</p>
+          </div>
+          <div class="fleche fleche1 flex">
+            <img src="img/fleche.png" alt="">
+          </div>
+          <div class="step step2">
+            <p class="circle">2</p>
+            <p>Statut</p>
+          </div>
+          <div class="fleche fleche2 flex">
+            <img src="img/fleche.png" alt="">
+          </div>
+          <div class="step step3">
+            <p class="circle">3</p>
+            <p>Niveau</p>
+          </div>
+        </div>
+
+      <form id="statut" class="w3-container form-contact">
+
+        <div class="w3-row form-etape-3">
+          <div class="statut w3-col">
+            <p>
+              Statut du stagiaire :
+            </p>
+            <p>
+              <input id="salarie" class="w3-radio" type="radio" name="statut" value="salarie">
+              <label for="salarie">Salarié</label>
+            </p>
+            <p id="input-salarie" class="input-salarie">
+              <label for="fonction">Fonction</label>
+              <input id="fonction" name="fonction" class="w3-input w3-border content-salarie" type="text">
+              <label for="contrat">Contrat</label>
+              <input id="contrat" name="contrat" class="w3-input w3-border content-salarie" type="text">
+            </p>
+
+            <p class="others">
+              <input id="non-salarie" class="w3-radio" type="radio" name="statut" value="non-salarie">
+              <label for="non-salarie">Non salarié (mères de famille, retraité, etc.)</label>
+            </p>
+
+            <p class="others">
+              <input id="demandeur-court" class="w3-radio" type="radio" name="statut" value="demandeur-court">
+              <label for="demandeur-court">Demandeur d'emploi (moins de 12 mois)</label>
+            </p>
+
+            <p class="others">
+              <input id="demandeur-long" class="w3-radio" type="radio" name="statut" value="demandeur-long">
+              <label for="demandeur-long">Demandeur d'emploi de longue durée (plus de 12 mois)</label>
+            </p>
+
+            <p class="others">
+              <input id="handicape" class="w3-radio" type="radio" name="statut" value="handicape">
+              <label for="handicape">Travailleurs handicapés</label>
+            </p>
+
+            <p class="others">
+              <input id="avenir" class="w3-radio" type="radio" name="statut" value="avenir">
+              <label for="avenir">C.A.E - C.U.I - Contrat d'Avenir</label>
+            </p>
+
+            <p>
+              <label for="inscription-emploi">Date d'inscription Pôle Emploi</label>
+              <input id="inscription-emploi" name="inscription-emploi" class="w3-input w3-border" type="text">
+            </p>
+
+            <p>
+              <label for="dernier-emploi">Dernier emploi occupé</label>
+              <input id="dernier-emploi" name="dernier-emploi" class="w3-input w3-border" type="text">
+            </p>
+
+            <p>
+              Statut de rémunération :
+            </p>
+            <p>
+              <input id="rsa" class="w3-radio" type="radio" name="remuneration" value="rsa">
+              <label for="rsa">Bénéficiaire du RSA</label>
+            </p>
+
+            <p>
+              <input id="are" class="w3-radio" type="radio" name="remuneration" value="are">
+              <label for="are">Bénéficiaire de l'A.R.E / l'ASS</label>
+            </p>
+
+            <p>
+              <input id="stagiaire-non-indemnise" class="w3-radio" type="radio" name="remuneration" value="stagiaire-non-indemnise">
+              <label for="stagiaire-non-indemnise">Stagiaire non indemnisé</label>
+            </p>
+
+            <p>
+              <input id="bourse" class="w3-radio" type="radio" name="remuneration" value="bourse">
+              <label for="bourse">Bourse Région</label>
+            </p>
+
+            <p>
+              <input id="stagiaire-remunere" class="w3-radio" type="radio" name="remuneration" value="stagiaire-remunere">
+              <label for="stagiaire-remunere">Stagiaire rémunéré par la Région (ASP)</label>
+            </p>
+
+            <p>
+              <input id="salaire" class="w3-radio" type="radio" name="remuneration" value="salaire">
+              <label for="salaire">Salaire</label>
+            </p>
+
+            <p>
+              <input id="cif" class="w3-radio" type="radio" name="remuneration" value="cif">
+              <label for="cif">Stagiaire bénéficiant d'un CIF / DIFF</label>
+            </p>
+
+            <p>
+              <input id="contrat-avenir" class="w3-radio" type="radio" name="remuneration" value="contrat-avenir">
+              <label for="contrat-avenir">C.A.E - C.U.I - Contrat d'Avenir</label>
+            </p>
+
+            <p>Origine des stagiaires :</p>
+            <p class="autres">
+              <input id="pole-emploi" class="w3-radio" type="radio" name="origine" value="pole-emploi">
+              <label for="pole-emploi">Pôle Emploi</label>
+            </p>
+            <p class="autres">
+              <input id="mission-locale" class="w3-radio" type="radio" name="origine" value="mission-locale">
+              <label for="mission-locale">Mission Locale</label>
+            </p>
+            <p class="autres">
+              <input id="cap-emploi" class="w3-radio" type="radio" name="origine" value="cap-emploi">
+              <label for="cap-emploi">Cap Emploi</label>
+            </p>
+            <p class="autres">
+              <input id="demarche" class="w3-radio" type="radio" name="origine" value="demarche">
+              <label for="demarche">Démarche spontanée</label>
+            </p>
+            <p>
+              <input id="autre" class="w3-radio" type="radio" name="origine" value="autre">
+              <label for="autre">Autre</label>
+            </p>
+            <p id="p-autre" class="autre">
+              <input id="autre-input" name="autre" class="w3-input w3-border" type="text">
+            </p>
+
+
+          </div>
+        </div>
+
+
+        <div class="form-buttons inscription-buttons flex">
+
+          <input type="submit" class="w3-btn button-form suivante" value="Etape suivante">
+          <button class="w3-btn button-form suivante" type="button" name="button">Annuler</button>
+        </div>
+      </form>
+
+      <div class="buttons-etape flex">
+        <form class="" action="index.html" method="post">
+          <input type="submit" name="" value="Etape précédente">
+        </form>
+
+        <form class="" action="index.html" method="post">
+          <input type="submit" name="" value="Enregistrer et terminer plus tard">
+        </form>
+      </div>
+    </div>
+
+    <footer>
+
+      <div class="footer-content">
+
+        <div class="footer-div-logo flex">
+          <div class="footer-hr">
+            <hr>
+          </div>
+          <div class="footer-logo">
+            <img src="img/adep-logo.png" alt="logo ADEP">
+          </div>
+          <div class="footer-hr">
+            <hr>
+          </div>
+
+        </div>
+
+        <div class="footer-info flex">
+          <div class="footer-address">
+              <img src="img/logo-ici.png" alt="">
+              <p>
+                94 rue <br>
+                Léon marlot <br>
+                59100 roubaix
+              </p>
+          </div>
+          <div class="footer-hourly">
+            <img src="img/logo-hour.png" alt="">
+            <p>
+              lun -> ven<br>
+              10h - 12h <br>
+              14h - 17h
+            </p>
+          </div>
+          <div class="footer-phone">
+            <img src="img/logo-info.png" alt="">
+            <p>
+              T: 03 20 02 79 68<br>
+              F: 03 20 75 83 78<br>
+              <span class="footer-web">adep-roubaix.fr</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-info-bis flex">
+          <div class="footer-info-hr">
+            <hr>
+          </div>
+          <div class="footer-info-p">
+            <p>ATTENTION: Le secrétariat
+            est fermé le lundi matin</p>
+          </div>
+          <div class="footer-info-hr">
+            <hr>
+          </div>
+        </div>
+
+        <div class="footer-contact">
+          <div class="footer-mail flex space-around">
+            <img src="img/logo-mail.png" alt="">
+            <p>secretariat@adep-roubaix.fr</p>
+          </div>
+          <div class="footer-social space-around flex">
+            <div class="footer-twitter flex">
+              <img src="img/logo-twitter.png" alt="">
+              <p>@adeproubaix</p>
+            </div>
+            <div class="footer-facebook flex">
+              <img src="img/logo-facebook.png" alt="">
+              <p>ADEPdeRoubaix</p>
+            </div>
+          </div>
+        </div>
+
+        <ul class="footer-link flex">
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="">Partenaires</a></li>
+          <li><a href="">Plan du site</a></li>
+        </ul>
+
+        <hr class="footer-hr-dev">
+
+        <div class="footer-developer">
+          <div class="flex">
+            <p>
+              Designed &amp; Made with
+            </p>
+            <img src="img/logo-hearth.png" alt="">
+          </div>
+          <p>by <a href="">ThierryVH</a> &amp; <a href="">MTHDHT</a></p>
+        </div>
+
+      </div>
+
+    </footer>
+
+    </main>
+
+    <script type="text/javascript" src="main.js">
+
+    </script>
+  </body>
+</html>

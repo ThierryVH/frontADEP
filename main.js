@@ -38,3 +38,46 @@ function closeSearch(){
   clickRecherche.placeholder = "";
   recherche.placeholder = "";
 }
+
+
+
+
+// ##################################################################
+// Etape 3 d'inscription pour afficher ou non les inputs et les vider
+// ##################################################################
+
+
+// inputs salarié
+var salarie = document.getElementById('salarie');
+var inputSalarie = document.getElementById('input-salarie');
+salarie.onclick = function(){
+  inputSalarie.style.display = "block";
+}
+
+var otherInput = document.getElementsByClassName('others');
+var contentSalarie = document.getElementsByClassName('content-salarie');
+for(let i=0; i<otherInput.length; i++){
+  otherInput[i].onclick = function(){
+    inputSalarie.style.display = "none";
+    for (j = 0; j < contentSalarie.length; j++) {
+      contentSalarie[j].value = "";
+    }
+  }
+}
+
+// input autre
+var autre = document.getElementById('autre');
+var pAutre = document.getElementById('p-autre');
+
+autre.onclick = function(){
+  pAutre.style.display = "block";
+}
+
+var autresInputs = document.getElementsByClassName('autres');
+var contentAutre = document.getElementById('autre-input');
+for(let i=0; i<autresInputs.length; i++){
+  autresInputs[i].onclick = function(){
+    pAutre.style.display = "none";
+    contentAutre.value = "";
+  }
+}
