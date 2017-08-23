@@ -1,0 +1,148 @@
+<div class="w3-card-2 form-content-inscription">
+
+  <!-- etapes-inscription -->
+
+  <form id="statut" class="w3-container form-contact">
+
+    <div class="w3-row form-etape-3">
+      <div class="statut w3-col">
+        <p>
+          <b>Statut du stagiaire :</b>
+        </p>
+        <p>
+          <input id="salarie" class="w3-radio" type="radio" name="statut" value="salarie">
+          <label for="salarie">Salarié</label>
+        </p>
+        <p id="input-salarie" class="input-salarie">
+          <label for="fonction">Fonction</label>
+          <input id="fonction" name="fonction" class="w3-input w3-border content-salarie" type="text">
+          <label for="contrat">Contrat</label>
+          <input id="contrat" name="contrat" class="w3-input w3-border content-salarie" type="text">
+        </p>
+
+        <p class="others">
+          <input id="non-salarie" class="w3-radio" type="radio" name="statut" value="non-salarie">
+          <label for="non-salarie">Non salarié (mères de famille, retraité, etc.)</label>
+        </p>
+
+        <p class="others">
+          <input id="demandeur-court" class="w3-radio" type="radio" name="statut" value="demandeur-court">
+          <label for="demandeur-court">Demandeur d'emploi (moins de 12 mois)</label>
+        </p>
+
+        <p class="others">
+          <input id="demandeur-long" class="w3-radio" type="radio" name="statut" value="demandeur-long">
+          <label for="demandeur-long">Demandeur d'emploi de longue durée (plus de 12 mois)</label>
+        </p>
+
+        <p class="others">
+          <input id="handicape" class="w3-radio" type="radio" name="statut" value="handicape">
+          <label for="handicape">Travailleurs handicapés</label>
+        </p>
+
+        <p class="others">
+          <input id="avenir" class="w3-radio" type="radio" name="statut" value="avenir">
+          <label for="avenir">C.A.E - C.U.I - Contrat d'Avenir</label>
+        </p>
+
+        <p>
+          <label for="inscription-emploi">Date d'inscription Pôle Emploi</label>
+          <input id="inscription-emploi" name="inscription-emploi" class="w3-input w3-border" type="text">
+        </p>
+
+        <p>
+          <label for="dernier-emploi">Dernier emploi occupé</label>
+          <input id="dernier-emploi" name="dernier-emploi" class="w3-input w3-border" type="text">
+        </p>
+
+        <p>
+          <b>Statut de rémunération :</b>
+        </p>
+        <p>
+          <input id="rsa" class="w3-radio" type="radio" name="remuneration" value="rsa">
+          <label for="rsa">Bénéficiaire du RSA</label>
+        </p>
+
+        <p>
+          <input id="are" class="w3-radio" type="radio" name="remuneration" value="are">
+          <label for="are">Bénéficiaire de l'A.R.E / l'ASS</label>
+        </p>
+
+        <p>
+          <input id="stagiaire-non-indemnise" class="w3-radio" type="radio" name="remuneration" value="stagiaire-non-indemnise">
+          <label for="stagiaire-non-indemnise">Stagiaire non indemnisé</label>
+        </p>
+
+        <p>
+          <input id="bourse" class="w3-radio" type="radio" name="remuneration" value="bourse">
+          <label for="bourse">Bourse Région</label>
+        </p>
+
+        <p>
+          <input id="stagiaire-remunere" class="w3-radio" type="radio" name="remuneration" value="stagiaire-remunere">
+          <label for="stagiaire-remunere">Stagiaire rémunéré par la Région (ASP)</label>
+        </p>
+
+        <p>
+          <input id="salaire" class="w3-radio" type="radio" name="remuneration" value="salaire">
+          <label for="salaire">Salaire</label>
+        </p>
+
+        <p>
+          <input id="cif" class="w3-radio" type="radio" name="remuneration" value="cif">
+          <label for="cif">Stagiaire bénéficiant d'un CIF / DIFF</label>
+        </p>
+
+        <p>
+          <input id="contrat-avenir" class="w3-radio" type="radio" name="remuneration" value="contrat-avenir">
+          <label for="contrat-avenir">C.A.E - C.U.I - Contrat d'Avenir</label>
+        </p>
+
+        <p><b>Origine des stagiaires :</b></p>
+        <p class="autres">
+          <input id="pole-emploi" class="w3-radio" type="radio" name="origine" value="pole-emploi">
+          <label for="pole-emploi">Pôle Emploi</label>
+        </p>
+        <p class="autres">
+          <input id="mission-locale" class="w3-radio" type="radio" name="origine" value="mission-locale">
+          <label for="mission-locale">Mission Locale</label>
+        </p>
+        <p class="autres">
+          <input id="cap-emploi" class="w3-radio" type="radio" name="origine" value="cap-emploi">
+          <label for="cap-emploi">Cap Emploi</label>
+        </p>
+        <p class="autres">
+          <input id="demarche" class="w3-radio" type="radio" name="origine" value="demarche">
+          <label for="demarche">Démarche spontanée</label>
+        </p>
+        <p>
+          <input id="autre" class="w3-radio" type="radio" name="origine" value="autre">
+          <label for="autre">Autre</label>
+        </p>
+        <p id="p-autre" class="autre">
+          <input id="autre-input" name="autre" class="w3-input w3-border" type="text" placeholder="Veuillez préciser">
+        </p>
+
+
+      </div>
+    </div>
+
+
+    <div class="inscription-buttons flex">
+
+      <input type="submit" class="w3-btn button-form suivante" value="Etape suivante">
+      <button class="w3-btn button-form suivante" type="button" name="button">Annuler</button>
+    </div>
+  </form>
+
+  <div class="buttons-etape flex">
+    <form class="" action="index.html" method="post">
+      <input type="submit" name="" value="Etape précédente">
+    </form>
+
+    <form class="" action="index.html" method="post">
+      <input type="submit" name="" value="Enregistrer et terminer plus tard">
+    </form>
+  </div>
+
+</div>

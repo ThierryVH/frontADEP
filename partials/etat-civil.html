@@ -1,0 +1,138 @@
+<div class="w3-card-2 form-content-inscription">
+
+  <!-- etapes-inscription -->
+
+  <form id="etat-civil" class="w3-container form-contact">
+
+    <div class="w3-row">
+    <div class="first-part w3-col l6">
+    <div class="flex choix-civilite">
+      <input id="madame" class="w3-radio" type="radio" name="gender" value="madame">
+      <label for="madame">Madame</label>
+
+      <input id="monsieur" class="w3-radio" type="radio" name="gender" value="monsieur">
+      <label for="monsieur">Monsieur</label>
+    </div>
+
+    <div class="flex duo">
+    <p class="nom">
+      <label for="nom">Nom</label>
+      <input id="nom" name="nom" class="w3-input w3-border" type="text">
+    </p>
+
+    <p class="nom-fille">
+      <label for="nom-fille">Nom de jeune fille</label>
+      <input id="nom-fille" name="nom-fille" class="w3-input w3-border" type="text">
+    </p>
+    </div>
+
+    <p>
+      <label for="prenom">Prénom</label>
+      <input id="prenom" name="prenom" class="w3-input w3-border" type="text">
+    </p>
+
+    <p>
+      <label for="date-naissance">Date de naissance (JJ/MM/AAAA)</label>
+      <input id="date-naissance" name="date-naissance" class="w3-input w3-border" type="text" placeholder="Exemple: 15/01/1986">
+    </p>
+
+    <div class="flex duo">
+      <p class="commune">
+        <label for="commune-naissance">Commune de naissance</label>
+        <input id="commune-naissance" name="commune-naissance" class="w3-input w3-border" type="text">
+      </p>
+
+      <p class="departement">
+        <label for="departement-naissance">Département de naissance</label>
+        <input id="departement-naissance" name="departement-naissance" class="w3-input w3-border" type="text">
+      </p>
+    </div>
+
+    <p>
+      <label for="nationalite">Nationalité</label>
+      <input id="nationalite" name="nationalite" class="w3-input w3-border" type="text">
+    </p>
+
+    <p>
+      <label for="date-entree">Date d'entrée en France (JJ/MM/AAAA)</label>
+      <input id="date-entree" name="date-entree" class="w3-input w3-border" type="text" placeholder="Exemple: 15/01/1986">
+    </p>
+
+  </div>
+
+  <div class="second-part w3-col l6">
+    <p class="adresse">Adresse</p>
+    <div class="flex duo">
+      <p class="numero">
+        <label for="numero">N°</label>
+        <input id="numero" name="numero" class="w3-input w3-border" type="text">
+      </p>
+
+      <p class="voie">
+        <label for="voie">Voie</label>
+        <input id="voie" name="voie" class="w3-input w3-border" type="text">
+      </p>
+    </div>
+
+    <p>
+      <label for="complement">Complément d'adresse (appartement, bâtiment, etc.)</label>
+      <input id="complement" name="complement" class="w3-input w3-border" type="text">
+    </p>
+
+    <div class="duo flex">
+    <p class="code-postal">
+      <label for="code-postal">Code postal</label>
+      <input id="code-postal" name="code-postal" class="w3-input w3-border" type="text">
+    </p>
+
+    <p class="ville">
+      <label for="ville">Ville</label>
+      <input id="ville" name="ville" class="w3-input w3-border" type="text">
+    </p>
+    </div>
+
+    <p>
+      <label for="fixe">Téléphone fixe</label>
+      <input id="fixe" name="fixe" class="w3-input w3-border" type="tel">
+    </p>
+
+    <p>
+      <label for="portable">Téléphone portable</label>
+      <input id="portable" name="portable" class="w3-input w3-border" type="tel">
+    </p>
+
+    <p>
+      <label for="situation">Situation familiale</label>
+      <select id="situation" class="w3-select w3-border" name="situation" form="etat-civil">
+        <option disabled value="selectionner">- Sélectionner votre choix -</option>
+        <option value="celibataire">Célibataire</option>
+        <option value="marie">Marié(e)</option>
+        <option value="divorce">Divorcé(e)</option>
+        <option value="veuf">veuf(ve)</option>
+        <option value="concubinage">Concubinage</option>
+      </select>
+    </p>
+
+
+  </div>
+
+  </div>
+
+
+    <div class="form-buttons inscription-buttons flex">
+
+      <input type="submit" class="w3-btn button-form suivante" value="Etape suivante">
+      <button class="w3-btn button-form suivante" type="button" name="button">Annuler</button>
+    </div>
+  </form>
+
+  <div class="buttons-etape flex">
+    <form class="" action="index.html" method="post">
+    </form>
+
+    <form class="" action="index.html" method="post">
+      <input type="submit" name="" value="Enregistrer et terminer plus tard">
+    </form>
+  </div>
+
+</div>

@@ -1,0 +1,107 @@
+<nav class="main-nav">
+
+<div class="flex w3-hide-large">
+
+<!-- start div to close sidebar -->
+<div onclick="w3_close()" class="w3-sidebar w3-collapse mySidebar nav-closeSidebar w3-hide-large"></div>
+<!-- end div to close sidebar -->
+
+<div class="div-logo-mobile">
+  <a href="index.html" class="flex">
+    <img class="logo-adep" src="img/adep-logo-cut.png" alt="Logo ADEP">
+  </a>
+</div>
+
+  <div class="div-search-mobile flex">
+    <label class="recherche" for="recherche"><img class="logo-loupe" src="img/logo-loupe.png"></label>
+    <input id="recherche" class="recherche-mobile" type="text">
+  </div>
+<!-- start main mobile & tablet navigation -->
+
+
+
+<div class="flex div-button-menu w3-hide-large">
+
+    <!-- start ul sidebar -->
+    <ul class="w3-sidebar w3-bar-block w3-collapse w3-card-2 w3-animate-right mySidebar ul-Sidebar">
+
+      <li onclick="w3_close()" class="menu-button w3-bar-item w3-button">
+        MENU
+      </li>
+
+      <li>
+        <img src="img/triangle-bleu-clair.png">
+        <a href="#" class="w3-bar-item w3-button">Les Essentiels</a>
+      </li>
+      <li>
+        <img src="img/triangle-brun.png">
+        <a href="#" class="w3-bar-item w3-button">Les Langues</a>
+      </li>
+      <li>
+        <img src="img/triangle-jaune.png">
+        <a href="#" class="w3-bar-item w3-button">Les Numérique</a>
+      </li>
+      <li>
+        <img src="img/triangle-orange.png">
+        <a href="#" class="w3-bar-item w3-button">Les Artistiques</a>
+      </li>
+      <li>
+        <img src="img/triangle-vert.png">
+        <a href="#" class="w3-bar-item w3-button">Les Mains Vertes</a>
+      </li>
+      <li>
+        <img src="img/triangle-bleu-fonce.png">
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+      </li>
+
+      <li>
+        <img src="img/triangle-gris.png">
+        <a href="connexion.html" class="w3-bar-item w3-button">Se Connecter</a>
+      </li>
+      <li>
+        <img src="img/triangle-gris.png">
+        <a href="inscription.html" class="w3-bar-item w3-button">S'inscrire</a>
+      </li>
+
+    </ul>
+    <!-- end ul sidebar -->
+
+
+  <button class="button-menu w3-button w3-teal w3-large w3-right" onclick="w3_open()"><span>MENU</span> &#9776;</button>
+
+</div>
+
+</div>
+<!-- end main mobile & tablet navigation -->
+
+<!-- start main desktop navigation -->
+
+<div class="flex navLarge w3-bar w3-hide-small w3-hide-medium">
+  <ul class="flex first-ul">
+    <li class="w3-bar-item w3-button"><a href="#">Les Essentiels</a></li>
+    <li class="w3-bar-item w3-button"><a href="#">Les Langues</a></li>
+    <li class="w3-bar-item w3-button"><a href="#">Les Numériques</a></li>
+    <li class="w3-bar-item w3-button"><a href="#">Les Artistiques</a></li>
+    <li class="w3-bar-item w3-button"><a href="#">Les Mains Vertes</a></li>
+    <li class="w3-bar-item w3-button"><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="flex click-recherche">
+    <label class="recherche" for="recherche-desktop"><img class="logo-loupe" src="img/logo-loupe.png" alt=""></label>
+    <input id="recherche-desktop" class="recherche-desktop" type="text">
+  </div>
+
+  <div class="flex nav-connexion">
+    <ul class="non-connected flex">
+      <li class="navLarge-connexion w3-bar-item w3-button"><a href="connexion.html">Se connecter</a></li>
+      <li class="navLarge-connexion w3-bar-item w3-button"><a href="inscription.html">S'inscrire</a></li>
+    </ul>
+    <!-- <ul class="connected">
+      <li class="navLarge-connexion w3-bar-item w3-button"><a href="">Mon compte</a></li>
+
+    </ul> -->
+  </div>
+</div>
+
+<!-- end main desktop navigation -->
+</nav>
