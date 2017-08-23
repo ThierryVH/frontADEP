@@ -101,9 +101,13 @@
 
 .inscription-buttons{
   width: 100%;
-  padding: 0 20px;
+  padding: 0;
   margin: 20px auto 0;
   flex-direction: column;
+}
+
+.form-buttons{
+  width: 90%;
 }
 
 .form-content-inscription .duo p:first-child{
@@ -124,7 +128,6 @@
 
 .buttons-etape form{
   text-align: center;
-  margin: 15px;
 }
 
 .buttons-etape input{
@@ -162,7 +165,7 @@
   }
 
   .inscription-buttons{
-    width: 75%;
+    width: 65%;
     margin: 10px auto 0;
     flex-direction: row;
   }
@@ -174,6 +177,10 @@
 
   .buttons-etape{
     flex-direction: row;
+  }
+
+  .buttons-etape form{
+    margin: 15px;
   }
 
 
