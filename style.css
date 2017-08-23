@@ -52,8 +52,7 @@ Hexa: #F1F1F3s
 }
 
 main{
-  width: 90%;
-  margin: 90px auto 0 auto;
+  margin-top: 90px;
 }
 
 /*################# MOBILE NAVIGATION #################*/
@@ -218,11 +217,8 @@ label.recherche img.logo-loupe{
     font-size: 15px!important;
   }
 
-  .menu-button{
-  }
-
   .breadcrumb{
-    width: 95%;
+    width: 85%;
     margin: 20px auto;
     color: #ccc;
   }
@@ -251,6 +247,11 @@ label.recherche img.logo-loupe{
   ###### SECTION PARTENAIRES #######
   ##################################*/
 
+  .main-section-partenaires{
+    width: 90%;
+    margin: auto;
+  }
+
   .section-partenaires{
     margin: 0 auto 80px;
     width: 95%;
@@ -273,9 +274,11 @@ label.recherche img.logo-loupe{
 
   footer{
     background-color: #F1F1F3;
+    margin: auto;
     margin-bottom: 20px;
     border-radius: 3px;
     padding-bottom: 20px;
+    width: 90%;
   }
 
   footer a{
@@ -463,7 +466,7 @@ label.recherche img.logo-loupe{
 @media(min-width: 701px){
 
   main{
-    margin: 105px auto 0 auto;
+    margin-top: 105px;
   }
 
   .main-nav{
@@ -609,8 +612,7 @@ label.recherche img.logo-loupe{
 @media(min-width: 993px){
 
   main{
-    width: 95%;
-    margin: 90px auto 0 auto;
+    margin-top: 90px;
   }
 
   /*################# DESKTOP NAVIGATION #################*/
@@ -762,12 +764,21 @@ label.recherche img.logo-loupe{
   ###### SECTION PARTENAIRES #######
   ##################################*/
 
+
+  .main-section-partenaires{
+    width: 95%;
+  }
+
   .section-partenaires img{
     width:150px;
     height: 150px;
   }
 
   /*################# FOOTER #################*/
+
+  footer{
+    width: 95%;
+  }
 
   .footer-logo{
     min-width: 200px;

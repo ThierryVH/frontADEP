@@ -1,3 +1,8 @@
+.main-section{
+  width: 90%;
+  margin: auto;
+}
+
 .section-cards{
   width: 100%;
   margin: auto;
@@ -137,6 +142,10 @@
 @media (min-width: 993px) {
   .formation-card {
       padding-bottom: 31%;
+  }
+
+  .main-section{
+    width: 95%;
   }
 }
 

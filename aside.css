@@ -1,0 +1,10 @@
+aside{
+  padding: 20px;
+}
+
+.twitter,
+.events{
+  border: 1px solid grey;
+  height: 250px;
+  margin: 10px 0;
+}
