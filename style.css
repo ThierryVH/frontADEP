@@ -271,7 +271,7 @@ strong{
 }
 
 .stats{
-  padding: 50px 10%;
+  padding: 10px 10%;
   background-color: #F1F1F3;
   /*box-shadow: 0 0 10px lightgrey;*/
 }
@@ -286,7 +286,7 @@ strong{
 }
 
 .stats-content{
-  width: 180px;
+  width: 140px;
   padding: 15px;
   margin: auto;
 }
@@ -294,22 +294,22 @@ strong{
 .circle-stat{
   border-radius: 50%;
   border: 5px solid #525252;
-  height:150px;
+  height:110px;
   flex-direction: column;
 }
 
 .circle-stat p{
   margin: auto;
-  font-size: 50px;
+  font-size: 35px;
   color: #ed1450;
   text-align: center;
 }
 
 .stats-content>p{
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
-  line-height: 20px;
-  margin-top: 15px;
+  line-height: 18px;
+  margin-top: 10px;
 }
 
 
@@ -498,10 +498,18 @@ strong{
   font-size: 15px;
 }
 
+.section-cards{
+  max-width: 420px;
+}
+
 
 @media (min-width: 487px) {
   .formation-card{
     padding-bottom: 58%;
+  }
+
+  .section-cards .index-formation-card{
+    padding-bottom: 63%;
   }
 }
 
@@ -984,6 +992,10 @@ strong{
   padding:0 11%;
 }
 
+.stats{
+  padding: 50px 10%;
+}
+
 .stats-container{
   flex-direction: row;
 }
@@ -995,6 +1007,34 @@ strong{
 .circle-stat p{
   font-size: 60px;
 }
+
+.index-third-part h3{
+  font-size: 20px;
+}
+
+.section-cards{
+  max-width: 643px;
+}
+
+.section-cards .index-formation-card{
+  padding-bottom: 57%;
+}
+
+.card-container{
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1079,10 +1119,6 @@ strong{
 
   .titre .text{
     top: 18px;
-  }
-
-  .card-container{
-    padding: 15px;
   }
 
   .section-cards{
@@ -1295,6 +1331,11 @@ strong{
   .formation-card{
     padding-bottom: 39%;
   }
+
+  .section-cards .index-formation-card{
+    padding-bottom: 57%;
+  }
+
 }
 
 /*##########################################################################################*/
@@ -1481,9 +1522,17 @@ strong{
   margin-top: 20px;
 }
 
+.section-cards .index-formation-card{
+  padding-bottom: 30%;
+}
 
+.card-container{
+  padding: 15px;
+}
 
-
+.section-cards{
+  max-width: 1035px;
+}
 
 
 
@@ -1698,5 +1747,9 @@ page partenaire
   /*page type*/
   .formation-card{
     padding-bottom: 29%;
+  }
+
+  .section-cards .index-formation-card{
+    padding-bottom: 30%;
   }
 }
