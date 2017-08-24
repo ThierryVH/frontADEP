@@ -278,6 +278,15 @@ strong{
 
 .stats h3{
   font-size: 24px;
+  border-bottom: 1px solid #525252;
+  margin-bottom: 25px;
+}
+
+.stats h3 span{
+  position: relative;
+  background-color: #F1F1F3;
+  top: 19px;
+  padding: 0 20px;
 }
 
 .stats-container{
@@ -293,7 +302,7 @@ strong{
 
 .circle-stat{
   border-radius: 50%;
-  border: 5px solid #525252;
+  border: 3px solid #525252;
   height:110px;
   flex-direction: column;
 }
@@ -1002,6 +1011,15 @@ strong{
 
 .stats h3{
   font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.stats h3 span{
+  padding: 0 40px;
+}
+
+.circle-stat{
+  border: 5px solid #525252;
 }
 
 .circle-stat p{
@@ -1024,6 +1042,21 @@ strong{
   padding: 20px;
 }
 
+.stats-content{
+  width: 180px;
+  /*padding: 15px;*/
+}
+
+
+.circle-stat{
+  height:150px;
+}
+
+.stats-content>p{
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 20px;
+}
 
 
 
@@ -1513,7 +1546,7 @@ strong{
 }
 
 .circle-stat p{
-  font-size: 50px;
+  font-size: 80px;
 }
 
 .stats-content>p{
