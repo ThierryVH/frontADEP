@@ -220,7 +220,7 @@ label.recherche img.logo-loupe{
   .breadcrumb{
     width: 85%;
     margin: 20px auto;
-    color: #ccc;
+    color: #525252;
   }
 
   .triangle-breadcrumb{
@@ -241,6 +241,451 @@ label.recherche img.logo-loupe{
     font-weight: 300;
     color: #525252;
   }
+
+
+/*accueil*/
+
+.index-first-part,
+.index-second-part,
+.index-fourth-part{
+  margin: auto;
+  font-size: 24px;
+  text-align: center;
+  padding:0 11%;
+}
+
+.index-first-part p{
+  padding: 50px 2% 100px;
+}
+
+.index-second-part p{
+  padding: 70px 2% 0;
+}
+
+.index-fourth-part p{
+  padding: 70px 2% 50px;
+}
+
+strong{
+  color: #ed1450;
+}
+
+.stats{
+  padding: 50px 10%;
+  background-color: #F1F1F3;
+  /*box-shadow: 0 0 10px lightgrey;*/
+}
+
+.stats-container{
+  justify-content: space-around;
+}
+
+.stats-content{
+  width: 220px;
+  padding: 15px;
+}
+
+.circle-stat{
+  border-radius: 50%;
+  border: 5px solid #525252;
+  height:190px;
+  flex-direction: column;
+}
+
+.circle-stat p{
+  margin: auto;
+  font-size: 80px;
+  color: #ed1450;
+  text-align: center;
+}
+
+.stats-content>p{
+  font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+
+.index-third-part{
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.index-formation{
+  width: 22%;
+  border: 3px solid lightgrey;
+  border-radius: 3px;
+}
+
+
+
+
+
+
+  /*style form*/
+  .form-content{
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 3px;
+  }
+
+  .form-connexion,
+  .form-inscription{
+    background-color: #F1F1F3;
+  }
+
+  .form-container{
+    padding: 0px 20px 50px 20px;
+    margin: 0 15px;
+  }
+
+  .button-form{
+    box-shadow: 0 0 0 white!important;
+    background-color: #004899;
+    color: white;
+    width: 230px;
+    margin-top: 10px;
+    border-radius: 3px;
+  }
+
+  .button-form:last-child{
+    border: 1px solid #aaa;
+    background-color: lightgrey;
+    color: #525252;
+  }
+
+  .form-div-logo{
+    margin: auto;
+    width: 80%;
+  }
+
+  .form-hr hr{
+    width: 68px;
+    border: 1px solid black;
+    margin-top: 47px;
+  }
+
+  .form-container input,
+  .form-container button{
+    border-radius: 3px;
+  }
+
+  .form-buttons-connexion{
+    flex-direction: column;
+  }
+
+
+
+
+
+/*statut*/
+
+.step2,
+.fleche1{
+  opacity: 1;
+}
+
+.input-salarie{
+  display: none;
+}
+
+.autre{
+  display: none;
+}
+
+.form-etape-3 input[type=radio] ~ label{
+  position: relative;
+  bottom: 2px;
+}
+
+
+
+
+
+
+/*page type*/
+
+.main-section{
+  width: 90%;
+  margin: auto;
+}
+
+.section-cards{
+  width: 100%;
+  margin: auto;
+}
+
+.triangle-page-type{
+  width: 70px;
+  margin: auto;
+}
+
+.triangle-page-type img{
+  width: 70px;
+}
+
+.titre{
+  width: 95%;
+  margin: auto;
+  margin: 0 auto 40px auto;
+  font-family: "Adam CG Pro";
+  font-size: 20px;
+}
+
+.titre-partenaires{
+  font-size: 15px;
+  margin: 60px auto 40px;
+}
+
+.titre .text{
+  background-color: white;
+  position: relative;
+  top: 18px;
+  padding: 0 20px;
+  color: #525252;
+}
+
+.formation-card{
+  position: relative;
+  width: 25%;
+  padding-bottom: 63%;
+  float: left;
+  height: 0;
+  /*border: 1px solid red;*/
+}
+
+.card-container{
+  /*border: 2px solid lightgrey;*/
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  padding: 8px;
+}
+
+.card-content{
+  width: 100%;
+  height: 100%;
+  border: 3px solid #e5e5e5;
+  border-radius: 3px;
+}
+
+.img-card{
+  width: 100%;
+}
+
+.card-container h3{
+  width: 90%;
+  margin: auto;
+  font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.index-third-part .img-card{
+  display: block;
+}
+
+.index-third-part h3{
+  font-size: 20px;
+}
+
+
+@media (min-width: 487px) {
+  .formation-card{
+    padding-bottom: 58%;
+  }
+}
+
+
+
+
+
+
+/*etat civil*/
+
+.form-content-inscription{
+  width: 90%;
+  margin: 0 auto 120px;
+  padding: 30px 0;
+  border-radius: 3px;
+}
+
+.duo{
+  flex-direction: column;
+  margin: 2px 0 -15px 0;
+}
+
+.etapes{
+  width: 70%;
+  margin: 0 auto 30px ;
+}
+
+.etapes>p{
+  width: 100%;
+  text-align: center;
+}
+
+.step{
+  width: 28%;
+  text-align: center;
+}
+
+.step p {
+  margin: auto;
+  color: black;
+}
+
+
+
+
+
+
+
+.step p:nth-child(2){
+  font-size: 16px;
+}
+
+.circle {
+    font-size: 20px;
+    width: 38px;
+    height: 38px;
+    font-weight: bold;
+    display: block;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.fleche{
+  width: 8%;
+}
+
+.fleche img{
+  width: 25px;
+  height: 30%;
+  position: relative;
+  top: 30%;
+}
+
+
+
+
+
+
+.step1{
+  opacity: 1;
+}
+
+.step2,
+.step3,
+.fleche1,
+.fleche2{
+  opacity: .1;
+}
+
+.inscription-buttons{
+  width: 100%;
+  padding: 0;
+  margin: 20px auto 0;
+  flex-direction: column;
+}
+
+.form-content-inscription .duo p:first-child{
+  margin-top: 0;
+}
+
+.inscription-buttons input,
+.inscription-buttons button{
+  width: 100%;
+}
+
+.buttons-etape{
+  width: 90%;
+  margin: 40px auto 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttons-etape form{
+  text-align: center;
+}
+
+.buttons-etape input{
+  background-color: white;
+  color: lightgrey;
+  transition: all ease .3s;
+  border: 2px solid white;
+  padding: 10px;
+}
+
+.buttons-etape input:hover{
+  cursor: pointer;
+  color: black;
+  /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);*/
+  border-radius: 3px;
+  border: 2px solid lightgrey;
+}
+
+
+
+
+
+
+
+
+
+/*contact*/
+
+.form-div-logo h2.contact{
+  font-family: "Adam CG Pro";
+  font-size: 16px;
+  margin: 0 15px;
+}
+
+.form-hr-contact hr{
+  width: 29px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.form-content{
+  margin-bottom: 80px;
+}
+
+.form-contact p:nth-child(2){
+  margin-top: -10px;
+}
+
+.w3-radio{
+  position: static!important;
+  width: 18px;
+  height: 20px;
+}
+
+
+.form-contact div label{
+  margin: 0 30px 0 5px;
+}
+
+.contact-message{
+  border-radius: 3px;
+  resize: vertical;
+}
+
+.choix-civilite{
+  padding: 15px 0;
+}
+
+.form-content-contact{
+  padding-top: 45px;
+  margin-top: 20px;
+}
+
+
+
+
 
 
   /*##################################
@@ -457,9 +902,9 @@ label.recherche img.logo-loupe{
   }
 
 
-/*##########################################################*/
-/*######################### TABLET #########################*/
-/*##########################################################*/
+/*##########################################################################################*/
+/*######################################  TABLET  ##########################################*/
+/*##########################################################################################*/
 
 
 
@@ -522,11 +967,223 @@ label.recherche img.logo-loupe{
     font-size: 2.5em;
   }
 
+
+
+
+  /*style form */
+
+  .form-content{
+    width: 600px;
+    margin: 50px auto 80px auto;
+  }
+
+  .form-container{
+    margin: 0 80px;
+  }
+
+  .form-div-logo{
+    width: 80%;
+  }
+
+  .form-hr hr{
+    width: 161px;
+    margin-top: 73px;
+  }
+
+  .button-form{
+    width: 190px;
+  }
+
+  .button-form:first-child{
+    margin-right: auto;
+  }
+
   .section-partenaires{
     margin: 0 auto 100px;
     width: 85%;
   }
 
+  .form-buttons-connexion{
+    flex-direction: row;
+  }
+
+
+
+
+
+  /*statut*/
+
+  .form-etape-3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .statut,
+  .niveau{
+    width: 65%;
+  }
+
+
+
+
+
+
+  /*page type*/
+
+  .triangle-page-type{
+    width: 100px;
+  }
+
+  .triangle-page-type img{
+    width: 100px;
+  }
+
+  .titre{
+    width: 86%;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 25px;
+  }
+
+  .titre-partenaires{
+    font-size: 20px;
+  }
+
+  .titre .text{
+    top: 18px;
+  }
+
+  .card-container{
+    padding: 15px;
+  }
+
+  .section-cards{
+    width: 88.5%;
+  }
+
+  .card-content{
+    transition: .3s ease all;
+  }
+
+
+  .card-content:hover{
+    border: 2px solid white;
+    box-shadow: 0 0 12px lightgrey;
+  }
+
+  .formation-card {
+      padding-bottom: 42%;
+  }
+
+
+
+
+
+
+
+  /*etat civil*/
+
+  .circle{
+    font-size: 25px;
+    width: 47px;
+    height: 47px;
+    border: 4px solid black;
+  }
+
+  .step p:nth-child(2){
+    font-size: 22px;
+  }
+
+  .fleche img{
+    width: 32px;
+    height: 40%;
+  }
+
+  .inscription-buttons{
+    width: 80%;
+    margin: 10px auto 0;
+    flex-direction: row;
+  }
+
+  .inscription-buttons input,
+  .inscription-buttons button{
+    width: 48%;
+  }
+
+  .buttons-etape{
+    flex-direction: row;
+  }
+
+  .buttons-etape form{
+    margin: 15px;
+  }
+
+  .suivante{
+    width: 48%;
+  }
+
+  .etapes{
+    width: 70%;
+  }
+
+  .duo{
+    margin: 2px 0 -15px 0;
+    flex-direction: row;
+  }
+
+  .duo p{
+    margin-top: 0!important;
+  }
+
+  .nom,
+  .nom-fille,
+  .commune,
+  .departement,
+  .code-postal,
+  .ville{
+    width: 48%;
+  }
+
+  .duo p:first-child{
+    margin-right: auto;
+  }
+
+  .numero{
+    width: 14%;
+    margin-right: auto;
+  }
+
+  .voie{
+    width: 82%;
+  }
+
+  .first-part,
+  .second-part{
+    padding: 0 20px;
+  }
+
+
+/*contact*/
+
+.form-div-logo h2.contact{
+  font-size: 20px;
+}
+
+.form-content-contact{
+  margin-top: 50px;
+}
+
+.form-hr-contact hr{
+  width: 131px;
+}
+
+.form-contact{
+  margin-top: 30px;
+}
+
+.form-content{
+  margin-bottom: 120px;
+}
 
 
   /*#################### FOOTER ###################*/
@@ -604,10 +1261,17 @@ label.recherche img.logo-loupe{
 
 }
 
+@media (min-width: 824px) {
 
-/*######################################################*/
-/*####################### DESKTOP ######################*/
-/*######################################################*/
+  /*page type*/
+  .formation-card{
+    padding-bottom: 39%;
+  }
+}
+
+/*##########################################################################################*/
+/*#####################################  DESKTOP  ##########################################*/
+/*##########################################################################################*/
 
 @media(min-width: 993px){
 
@@ -760,6 +1424,35 @@ label.recherche img.logo-loupe{
     margin-right: 50px;
   }
 
+
+
+
+
+  /*statut*/
+
+  .form-etape-3{
+    width: 80%;
+  }
+
+
+
+
+
+
+  /*page type*/
+
+  .formation-card {
+      padding-bottom: 31%;
+  }
+
+  .main-section{
+    width: 95%;
+  }
+
+
+
+
+
   /*##################################
   ###### SECTION PARTENAIRES #######
   ##################################*/
@@ -845,6 +1538,50 @@ label.recherche img.logo-loupe{
 
 
 
+
+/*style form*/
+
+  .form-hr hr{
+    width: 140px;
+    margin-top: 95px;
+  }
+
+  .form-content{
+    margin: 50px auto 80px auto;
+  }
+
+
+
+
+
+  /*etat civil */
+
+  .first-part{
+    border-right: 1px solid lightgrey;
+  }
+
+  .etapes{
+    width: 55%;
+  }
+
+  .inscription-buttons{
+    width: 70%;
+  }
+
+  .adresse{
+    margin: 15px 0 17px;
+  }
+
+  .etat-civil{
+    width: 95%;
+  }
+
+  .statut,
+  .niveau{
+    width: 55%;
+  }
+
+
 /* ##############################
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ################################
@@ -878,13 +1615,12 @@ page partenaire
     height: 800px;
   }*/
 
+}
 
-  /*###################################
-  ########## page type ##############
-  ###################################*/
+@media (min-width: 1041px) {
 
-  nav{
-    z-index: 1;
+  /*page type*/
+  .formation-card{
+    padding-bottom: 29%;
   }
-
 }
