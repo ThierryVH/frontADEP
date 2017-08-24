@@ -276,34 +276,40 @@ strong{
   /*box-shadow: 0 0 10px lightgrey;*/
 }
 
+.stats h3{
+  font-size: 24px;
+}
+
 .stats-container{
   justify-content: space-around;
+  flex-direction: column;
 }
 
 .stats-content{
-  width: 220px;
+  width: 180px;
   padding: 15px;
+  margin: auto;
 }
 
 .circle-stat{
   border-radius: 50%;
   border: 5px solid #525252;
-  height:190px;
+  height:150px;
   flex-direction: column;
 }
 
 .circle-stat p{
   margin: auto;
-  font-size: 80px;
+  font-size: 50px;
   color: #ed1450;
   text-align: center;
 }
 
 .stats-content>p{
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
-  line-height: 30px;
-  margin-top: 20px;
+  line-height: 20px;
+  margin-top: 15px;
 }
 
 
@@ -489,7 +495,7 @@ strong{
 }
 
 .index-third-part h3{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 
@@ -978,6 +984,18 @@ strong{
   padding:0 11%;
 }
 
+.stats-container{
+  flex-direction: row;
+}
+
+.stats h3{
+  font-size: 24px;
+}
+
+.circle-stat p{
+  font-size: 60px;
+}
+
 
 
   /*style form */
@@ -1442,6 +1460,38 @@ strong{
 .index-first-part p{
   padding: 50px 2% 100px;
 }
+
+.stats-content{
+  width: 220px;
+  padding: 15px;
+}
+
+
+.circle-stat{
+  height:190px;
+}
+
+.circle-stat p{
+  font-size: 50px;
+}
+
+.stats-content>p{
+  font-size: 30px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
