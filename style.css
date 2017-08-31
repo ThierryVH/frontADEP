@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Adam CG Pro";
-    src: url(ADAM_CG_PRO.otf);
+    src: url('ADAM_CG_PRO.otf');
 }
 
 body,
@@ -11,6 +11,127 @@ body,
 nav{
   z-index: 1;
 }
+
+iframe{
+  display: block;
+  width: 70%;
+  height: 500px;
+  margin: auto;
+}
+
+
+#recherche-invisible{
+  visibility: hidden;
+}
+
+.non-connected{
+  display: none!important;
+}
+
+.formation-card a{
+  text-decoration: none;
+}
+
+
+.testh3{
+  height: auto;
+  margin: auto;
+}
+
+
+/*page formation*/
+
+.link-inscription{
+  font-family: "Adam CG Pro";
+  letter-spacing: 2px;
+  text-align: center;
+  display: block;
+  margin: 50px auto;
+  padding: 20px 0;
+  width: 30%;
+  font-size: 25px;
+  border: 3px solid #AEAEAE;
+  border-radius: 3px;
+  transition: .3s ease all;
+}
+
+.link-inscription:hover{
+  border: 3px solid white;
+  box-shadow: 0 0 16px lightgrey;
+}
+
+.titre.titre-formation{
+  margin-bottom: 40px;
+}
+
+.section-tarif{
+  background-color: #F1F1F3;
+}
+
+.tarif{
+  font-family: "Adam CG Pro";
+  width: 95%;
+  max-width: 410px;
+  font-size: 11px;
+  margin: 200px auto;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.session{
+  font-size: 16px;
+  margin: 10px auto 40px;
+}
+
+.tarif img{
+  width: 40px;
+}
+
+.tarif-art{
+  font-size: 18px;
+}
+
+.border-bottom{
+  border-bottom: 2px solid #AEAEAE;
+}
+
+.border-bottom span{
+  position: relative;
+  background-color: #F1F1F3;
+  padding: 0 20px;
+  top: 10px;
+  display: inline-block;
+  width: auto;
+}
+
+.prix{
+  margin-top: 15px;
+  color: #ed1450;
+  font-size: 13px;
+}
+
+.tarif p .tarif-small{
+  position: relative;
+  bottom: 5px;
+}
+
+.p-adhesion{
+  font-size: 12px!important;
+  margin: 10px auto 20px;
+}
+
+.gratuit{
+  font-size: 15px;
+  color: #ed1450;
+}
+
+.gratuit span{
+  top: 14px;
+}
+
+
+
 
 /*
 Jaune  LES NUMERIQUES
@@ -277,8 +398,9 @@ strong{
 }
 
 .stats h3{
+  color: #525252;
   font-size: 24px;
-  border-bottom: 1px solid #525252;
+  border-bottom: 1px solid #AEAEAE;
   margin-bottom: 25px;
 }
 
@@ -302,7 +424,7 @@ strong{
 
 .circle-stat{
   border-radius: 50%;
-  border: 3px solid #525252;
+  border: 3px solid #AEAEAE;
   height:110px;
   flex-direction: column;
 }
@@ -319,6 +441,7 @@ strong{
   text-align: center;
   line-height: 18px;
   margin-top: 10px;
+  color: #525252;
 }
 
 
@@ -341,7 +464,8 @@ strong{
 
   /*style form*/
   .form-content{
-    width: 300px;
+    width: 95%;
+    max-width: 500px;
     margin: 50px auto;
     border-radius: 3px;
   }
@@ -360,7 +484,7 @@ strong{
     box-shadow: 0 0 0 white!important;
     background-color: #004899;
     color: white;
-    width: 230px;
+    width: 100%;
     margin-top: 10px;
     border-radius: 3px;
   }
@@ -391,6 +515,25 @@ strong{
     flex-direction: column;
   }
 
+  .logo-connexion-inscription img{
+    width: 80px;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 43px;
+  }
+
+  .logo-connexion-inscription h2{
+    margin-top: -55px;
+    border-bottom: 2px solid #525;
+    width: 75%;
+  }
+
+  .logo-connexion-inscription h2.titre span{
+    background-color: #F1F1F3;
+    top: 18px;
+  }
+
 
 
 
@@ -414,6 +557,7 @@ strong{
   position: relative;
   bottom: 2px;
 }
+
 
 
 
@@ -452,6 +596,7 @@ strong{
 .titre-partenaires{
   font-size: 15px;
   margin: 60px auto 40px;
+  border: 0!important;
 }
 
 .titre .text{
@@ -461,6 +606,7 @@ strong{
   padding: 0 20px;
   color: #525252;
 }
+
 
 .formation-card{
   position: relative;
@@ -489,7 +635,9 @@ strong{
 }
 
 .img-card{
-  width: 100%;
+  width: 80%;
+display: block;
+margin: 20px auto;
 }
 
 .card-container h3{
@@ -657,6 +805,17 @@ strong{
 
 
 
+/*statut & niveau*/
+
+.form-niveau-statut{
+  width: 95%;
+  max-width: 450px;
+}
+
+
+
+
+
 
 
 /*contact*/
@@ -703,9 +862,16 @@ strong{
 
 .form-content-contact{
   padding-top: 45px;
-  margin-top: 20px;
+  margin: 20px auto 120px!important;
 }
 
+.button-contact{
+  width: 100%;
+}
+
+.form-content-inscription{
+  /*background-color: #F1F1F3;*/
+}
 
 
 
@@ -999,10 +1165,11 @@ strong{
 .index-fourth-part{
   font-size: 24px;
   padding:0 11%;
+  letter-spacing: 1px;
 }
 
 .stats{
-  padding: 50px 10%;
+  padding: 20px 10%;
 }
 
 .stats-container{
@@ -1019,7 +1186,7 @@ strong{
 }
 
 .circle-stat{
-  border: 5px solid #525252;
+  border: 6px solid #AEAEAE;
 }
 
 .circle-stat p{
@@ -1059,6 +1226,54 @@ strong{
 }
 
 
+/*page formation*/
+
+  .tarif{
+    width: 90%;
+    max-width: 780px;
+    margin: 200px auto;
+    padding: 30px 60px;
+    font-size: 14px;
+  }
+
+  .session{
+    font-size: 25px;
+    margin-top: 10px auto 50px;
+  }
+
+  .tarif img{
+    width: 70px;
+  }
+
+  .border-bottom span{
+    padding: 0 20px;
+    top: 13px;
+  }
+
+  .prix{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .tarif-art{
+    font-size: 23px;
+  }
+
+  .p-adhesion,
+  .gratuit{
+    font-size: 18px!important;
+  }
+
+  .p-adhesion span,
+  .gratuit span{
+    top: 17px;
+  }
+
+
+
+
+
+
 
 
 
@@ -1075,6 +1290,7 @@ strong{
 
   .form-content{
     width: 600px;
+    max-width: 600px;
     margin: 50px auto 80px auto;
   }
 
@@ -1090,10 +1306,10 @@ strong{
     width: 161px;
     margin-top: 73px;
   }
-
+/*
   .button-form{
     width: 190px;
-  }
+  }*/
 
   .button-form:first-child{
     margin-right: auto;
@@ -1108,6 +1324,19 @@ strong{
     flex-direction: row;
   }
 
+  .logo-connexion-inscription img{
+    width: 100px;
+    bottom: 54px;
+  }
+
+  .logo-connexion-inscription h2{
+    margin-top: -67px;
+  }
+
+  .logo-connexion-inscription h2.titre span{
+    top: 22px;
+  }
+
 
 
 
@@ -1115,16 +1344,23 @@ strong{
   /*statut*/
 
   .form-etape-3{
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .statut,
+  /*.statut,
   .niveau{
     width: 65%;
+  }*/
+
+  .form-niveau-statut{
+    max-width: 600px;
   }
 
+  .buttons-niveau-statut{
+    width: 70%!important;
+  }
 
 
 
@@ -1142,7 +1378,7 @@ strong{
 
   .titre{
     width: 86%;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #AEAEAE;
     font-size: 25px;
   }
 
@@ -1267,7 +1503,7 @@ strong{
 }
 
 .form-content-contact{
-  margin-top: 50px;
+  margin: 50px auto 120px;
 }
 
 .form-hr-contact hr{
@@ -1427,6 +1663,11 @@ strong{
     /*margin: 0!important;*/
   }
 
+  .navLarge a{
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+  }
+
   .navLarge ul{
     padding: 0;
     margin: 0;
@@ -1532,7 +1773,7 @@ strong{
 /*accueil*/
 
 .index-first-part p{
-  padding: 50px 2% 100px;
+  padding: 10px 2% 100px;
 }
 
 .stats-content{
@@ -1550,7 +1791,7 @@ strong{
 }
 
 .stats-content>p{
-  font-size: 30px;
+  font-size: 25px;
   line-height: 30px;
   margin-top: 20px;
 }
@@ -1570,7 +1811,11 @@ strong{
 
 
 
+/*page formation*/
 
+.tarif{
+    font-size: 15px;
+  }
 
 
 
@@ -1588,10 +1833,10 @@ strong{
 
   /*statut*/
 
-  .form-etape-3{
-    width: 80%;
-  }
 
+  .form-niveau-statut{
+    max-width: 650px;
+  }
 
 
 
@@ -1734,10 +1979,10 @@ strong{
     width: 95%;
   }
 
-  .statut,
+  /*.statut,
   .niveau{
     width: 55%;
-  }
+  }*/
 
 
 /* ##############################

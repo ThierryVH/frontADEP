@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Accueil</title>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <link rel="stylesheet" href="w3.css">
-    <link rel="stylesheet" href="style-form.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.css">
-
+    <link rel="stylesheet" href="page-type.css">
+    <link rel="stylesheet" href="tarifs.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
   </head>
-
   <body>
+
 
     <nav class="main-nav">
 
@@ -49,23 +48,23 @@
 
           <li>
             <img src="img/triangle-bleu-clair.png">
-            <a href="page-type.html" class="w3-bar-item w3-button">Les Essentiels</a>
+            <a href="#" class="w3-bar-item w3-button">Les Essentiels</a>
           </li>
           <li>
             <img src="img/triangle-brun.png">
-            <a href="page-type.html" class="w3-bar-item w3-button">Les Langues</a>
+            <a href="#" class="w3-bar-item w3-button">Les Langues</a>
           </li>
           <li>
             <img src="img/triangle-jaune.png">
-            <a href="page-type.html" class="w3-bar-item w3-button">Les Numérique</a>
+            <a href="#" class="w3-bar-item w3-button">Les Numérique</a>
           </li>
           <li>
             <img src="img/triangle-orange.png">
-            <a href="page-type.html" class="w3-bar-item w3-button">Les Artistiques</a>
+            <a href="#" class="w3-bar-item w3-button">Les Artistiques</a>
           </li>
           <li>
             <img src="img/triangle-vert.png">
-            <a href="page-type.html" class="w3-bar-item w3-button">Les Mains Vertes</a>
+            <a href="#" class="w3-bar-item w3-button">Les Mains Vertes</a>
           </li>
           <li>
             <img src="img/triangle-bleu-fonce.png">
@@ -119,10 +118,10 @@
 
     <div class="flex navLarge w3-bar w3-hide-small w3-hide-medium">
       <ul class="flex first-ul">
-        <li class="w3-bar-item w3-button"><a href="page-type.html">Les Essentiels</a></li>
-        <li class="w3-bar-item w3-button"><a href="page-type.html">Les Langues</a></li>
-        <li class="w3-bar-item w3-button"><a href="page-type.html">Les Numériques</a></li>
-        <li class="w3-bar-item w3-button"><a href="page-type.html">Les Artistiques</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Les Essentiels</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Les Langues</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Les Numériques</a></li>
+        <li class="w3-bar-item w3-button"><a href="#">Les Artistiques</a></li>
         <li class="w3-bar-item w3-button"><a href="#">Les Mains Vertes</a></li>
         <li class="w3-bar-item w3-button"><a href="contact.html">Contact</a></li>
       </ul>
@@ -133,7 +132,7 @@
       </div>
 
       <div class="flex nav-connexion">
-        <ul class=" flex">
+        <ul class="non-connected flex">
           <li class="navLarge-connexion w3-bar-item w3-button"><a href="connexion.html">Se connecter</a></li>
           <li class="navLarge-connexion w3-bar-item w3-button"><a href="inscription.html">S'inscrire</a></li>
         </ul>
@@ -148,82 +147,57 @@
   </nav>
 
   <main>
-    <div class="breadcrumb flex">
-      <p>
-        <a href="index.html">Accueil</a>
-      </p>
-      <p class="triangle-breadcrumb">&gt;</p>
-      <p>
-        <a href="connexion.html">Connexion</a>
-      </p>
-      <p class="triangle-breadcrumb">&gt;</p>
-      <p>
-        <a href="connexion.html">Connexion</a>
-      </p>
-    </div>
+
+  <section class="tarif">
+    <img src="img/logo-euro.png" alt="">
+    <p>Session de 45h</p>
+    <p class="border-bottom w3-hide-small">
+      <span>roubaisiens non-imposables et/ou demandeurs d’emploi</span>
+    </p>
+    <p class="border-bottom w3-hide-medium w3-hide-large">
+      <span class="tarif-small">roubaisiens non-imposables et/ou </span><br> <span>demandeurs d’emploi</span>
+    </p>
+    <p class="prix">30€</p>
+    <p class="border-bottom">
+      <span>roubaisiens imposables</span>
+    </p>
+    <p class="prix">60€</p>
+    <p class="border-bottom">
+      <span>non-roubaisiens</span>
+    </p>
+    <p class="prix">105€</p>
+  </section>
+
+<section class="main-section-partenaires">
 
 
-      <div class="w3-card-2 form-content form-content-contact">
-
-        <!-- <div class="footer-logo-contact">
-          <img src="img/adep-logo-cut.png" alt="logo ADEP">
-        </div> -->
-
-        <div class="form-div-logo form-div-logo-contact flex">
-
-          <div class="form-hr-contact">
-            <hr>
-          </div>
-          <h2 class="contact">Contactez-nous</h2>
-          <div class="form-hr-contact">
-            <hr>
-          </div>
-
-        </div>
-
-        <form class="w3-container form-container form-contact">
-
-          <div class="flex choix-civilite">
-            <input id="madame" class="w3-radio" type="radio" name="gender" value="madame">
-            <label for="madame">Madame</label>
-
-            <input id="monsieur" class="w3-radio" type="radio" name="gender" value="monsieur">
-            <label for="monsieur">Monsieur</label>
-          </div>
-
-            <p>
-              <label for="nom">Nom</label>
-              <input id="nom" class="w3-input w3-border" type="text">
-            </p>
-
-            <p>
-              <label for="prenom">Prénom</label>
-              <input id="prenom" class="w3-input w3-border" type="text">
-            </p>
-
-          <p>
-            <label for="email">E-mail</label>
-            <input id="email" class="w3-input w3-border" type="email">
-          </p>
-
-          <p>
-            <label for="phone">Téléphone</label>
-            <input id="phone" class="w3-input w3-border" type="tel">
-          </p>
-
-          <p>
-            <label for="message">Message</label>
-            <textarea id="message" class="contact-message w3-input w3-border" name="message" rows="4" cols="47"></textarea>
-          </p>
-
-          <div class="form-buttons">
-            <input type="submit" class="w3-btn button-form" value="Envoyer">
-            <button class="w3-btn button-form" type="button" name="button">Annuler</button>
-          </div>
-        </form>
+    <h2 class="w3-center titre titre-partenaires">
+      <span class="text">Nos partenaires</span>
+    </h2>
+    <div class="section-partenaires w3-row">
+      <div class="w3-col s6 m4 flex">
+        <img src="img/adep-logo-cut.png" alt="">
       </div>
+      <div class="w3-col s6 m4 flex">
+        <img src="img/adep-logo-cut.png" alt="">
+      </div>
+      <div class="w3-col s6 m4 flex">
+        <img src="img/adep-logo-cut.png" alt="">
+      </div>
+      <div class="w3-col s6 m4 flex">
+        <img src="img/adep-logo-cut.png" alt="">
+      </div>
+      <div class="w3-col s6 m4 flex">
+        <img src="img/adep-logo-cut.png" alt="">
+      </div>
+      <div class="w3-col s6 m4 flex">
+        <img src="img/adep-logo-cut.png" alt="">
+      </div>
+    </div>
+    </section>
 
-      <!-- <iframe class="w3-card-4" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10113.811679666445!2d3.1919312!3d50.6744174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6ae6585f5725be4!2sA.D.E.P.!5e0!3m2!1sfr!2sfr!4v1502623918798" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+
+
 
     <footer>
 
@@ -300,7 +274,7 @@
         </div>
 
         <ul class="footer-link flex">
-          <li><a href="#">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="">Partenaires</a></li>
           <li><a href="">Plan du site</a></li>
         </ul>
@@ -321,12 +295,11 @@
 
     </footer>
 
-  </main>
+
+    </main>
 
     <script type="text/javascript" src="main.js">
 
     </script>
-
   </body>
-
 </html>

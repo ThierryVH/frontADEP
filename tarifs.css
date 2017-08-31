@@ -1,0 +1,79 @@
+.tarif{
+  font-family: "Adam CG Pro";
+  background-color: #F1F1F3;
+  width: 95%;
+  max-width: 410px;
+  font-size: 11px;
+  margin: 200px auto;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.tarif p:first-of-type{
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.tarif img{
+  width: 40px;
+}
+
+.border-bottom{
+  border-bottom: 2px solid #AEAEAE;
+}
+
+.border-bottom span{
+  position: relative;
+  background-color: #F1F1F3;
+  padding: 0 20px;
+  top: 10px;
+  display: inline-block;
+  width: auto;
+}
+
+.prix{
+  margin-top: 15px;
+  color: #ed1450;
+  font-size: 13px;
+}
+
+.tarif p .tarif-small{
+  position: relative;
+  bottom: 5px;
+}
+
+@media (min-width: 701px) {
+  .tarif{
+    width: 90%;
+    max-width: 780px;
+    margin: 200px auto;
+    padding: 30px 60px;
+    font-size: 14px;
+  }
+
+  .tarif p:first-of-type{
+    font-size: 25px;
+    margin-top: 25px;
+  }
+
+  .tarif img{
+    width: 70px;
+  }
+
+  .border-bottom span{
+    padding: 0 20px;
+    top: 13px;
+  }
+
+  .prix{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 993px) {
+  .tarif{
+    font-size: 15px;
+  }
+}
